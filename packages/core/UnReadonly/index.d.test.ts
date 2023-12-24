@@ -1,5 +1,5 @@
-import type { UnReadonly } from "../src/un-readonly"
-import { Equal, Expect } from "../utils";
+import type { UnReadonly } from "@unts-utility/core"
+import { Equal, Expect } from "@unts-utility/shared"
 
 type Case = {
   name: string;
