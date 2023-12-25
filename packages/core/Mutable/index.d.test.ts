@@ -1,4 +1,4 @@
-import type { UnReadonly } from "@unts-utility/core"
+import type { Mutable } from "@unts-utility/core"
 import { Equal, Expect } from "@unts-utility/shared"
 
 type Case = {
@@ -9,5 +9,5 @@ type ReadonlyCase = {
 }
 
 type cases = [
-  Expect<Equal<UnReadonly<ReadonlyCase>, Case>>,
+  Expect<Equal<Mutable<ReadonlyCase>, Case>>,
 ]

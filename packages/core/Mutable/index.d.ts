@@ -1,9 +1,9 @@
 /**
- * UnReadonly
+ * Mutable
  * @description Like Readonly, but it will remove the readonly of the object property.
  * @example
  *  type Prop = { readonly name: string }
  *  // Expect: { name: string }
- *  type UnReadonlyProp = UnReadonly<Prop>
+ *  type MutableProp = Mutable<Prop>
  */
-export type UnReadonly<T> = { -readonly [P in keyof T]: T[P]; }
+export type Mutable<T> = { -readonly [P in keyof T]: T[P]; }
