@@ -1,2 +1,5 @@
-
-export type ObjectWrapper<T> = { [P in keyof T]: T[P]; }
+/**
+ * Duplicate
+ * @description Get copy of `T`
+ */
+export type Duplicate<T> = { [P in keyof T]: T[P]; }
