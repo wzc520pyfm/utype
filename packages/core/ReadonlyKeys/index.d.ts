@@ -1,6 +1,6 @@
 import { Equal } from "@unts-utility/shared";
-import { NonUndefined } from "../NonUndefined";
-import { NonNeverX } from "../NonNeverX";
+import { NonNeverX, NonUndefined } from "@unts-utility/core";
+
 /**
  * ReadonlyKeys
  * @description Get union type of keys that are readonly in object type T.

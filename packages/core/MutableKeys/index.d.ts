@@ -1,7 +1,5 @@
 import { Equal } from "@unts-utility/shared";
-import { Mutable } from "../Mutable";
-import { NonNeverX } from "../NonNeverX";
-import { NonUndefined } from "../NonUndefined";
+import { Mutable, NonNeverX, NonUndefined } from "@unts-utility/core";
 
 /**
  * MutableKeys
