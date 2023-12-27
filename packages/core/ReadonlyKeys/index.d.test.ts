@@ -14,7 +14,6 @@ type Case2 = {
   visible?: boolean;
 };
 type ReadonlyKeysCase2 = 'name' | 'age';
-type TT = ReadonlyKeys<Case2>
 
 type cases = [
   Expect<Equal<ReadonlyKeys<Case1>, ReadonlyKeysCase1>>,
