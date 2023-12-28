@@ -1,11 +1,14 @@
 import { defineConfig } from 'vitepress'
+import { sidebar } from './configs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Unts Utility",
+  title: "Utility TS",
   description: "Collection of TS Utility Types",
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.svg',
     nav: [
       {
         text: 'Guide',
@@ -13,18 +16,10 @@ export default defineConfig({
           { text: 'Get Started', link: '/guide/' },
         ]
       },
-      { text: 'Utility Types', link: '/markdown-examples' }
+      { text: 'Utility Types', link: '/types/mutable' }
     ],
 
-    sidebar: [
-      {
-        text: 'Utility Types',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }

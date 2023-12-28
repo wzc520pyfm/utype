@@ -3,23 +3,24 @@
 layout: home
 
 hero:
-  name: "Unts Utility"
+  name: "Utility TS"
   # text: "More TS Utility Types"
   text: "Collection of TS Utility Types"
   tagline: Collection of typescript utility types that extends the official utility types.
+  image: /logo.svg
   actions:
     - theme: brand
       text: Get Started
-      link: /markdown-examples
+      link: /guide/
     - theme: alt
       text: Utility Types
-      link: /api-examples
+      link: /types/mutable
     - theme: alt
       text: Add-ons
       link: /api-examples
     - theme: alt
       text: View on GitHub
-      link: /api-examples
+      link: https://github.com/vuejs/vitepress
 
 features:
   - title: Feature A

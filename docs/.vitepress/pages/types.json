@@ -1,0 +1,20 @@
+{
+  "core": {
+    "text": "Core",
+    "items": [
+      {
+        "link": "/mutable",
+        "text": "Mutable"
+      }
+    ]
+  },
+  "react": {
+    "text": "React",
+    "items": [
+      {
+        "link": "/example-react",
+        "text": "ExampleReact"
+      }
+    ]
+  }
+}
