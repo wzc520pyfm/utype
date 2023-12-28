@@ -1,5 +1,5 @@
-import { Equal } from "@unts-utility/shared";
-import { NonNeverX, NonUndefined } from "@unts-utility/core";
+import { Equal } from "@utility-ts/shared";
+import { NonNeverX, NonUndefined } from "@utility-ts/core";
 
 /**
  * ReadonlyKeys
@@ -16,6 +16,8 @@ import { NonNeverX, NonUndefined } from "@unts-utility/core";
 export type ReadonlyKeys<
   T extends object,
   R extends Record<keyof T, unknown> = Readonly<T>
-> = NonUndefined<NonNeverX<{
-  [K in keyof T]: Equal<Pick<T, K>, Pick<R, K>> extends true ? K : never;
-}>>;
+> = NonUndefined<
+  NonNeverX<{
+    [K in keyof T]: Equal<Pick<T, K>, Pick<R, K>> extends true ? K : never;
+  }>
+>;

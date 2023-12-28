@@ -1,5 +1,5 @@
-import type { RequiredKeys } from "@unts-utility/core";
-import { Equal, Expect } from "@unts-utility/shared";
+import type { RequiredKeys } from "@utility-ts/core";
+import { Equal, Expect } from "@utility-ts/shared";
 
 type Case1 = {
   name: string;

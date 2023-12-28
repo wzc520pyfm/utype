@@ -1,4 +1,4 @@
-import { Duplicate } from "@unts-utility/shared";
+import { Duplicate } from "@utility-ts/shared";
 
 /**
  * ReadonlyX
@@ -12,4 +12,6 @@ import { Duplicate } from "@unts-utility/shared";
  *  // Expect: { readonly name: string; readonly age: number; visible: boolean; }
  *  type ReadonlyXProp = ReadonlyX<Prop, 'name' | 'age'>
  */
-export type ReadonlyX<T, K extends keyof T = keyof T> = Duplicate<Readonly<Pick<T, K>> & Omit<T, K>>
+export type ReadonlyX<T, K extends keyof T = keyof T> = Duplicate<
+  Readonly<Pick<T, K>> & Omit<T, K>
+>;

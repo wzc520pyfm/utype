@@ -1,5 +1,5 @@
-import type { ObjectKeys } from "@unts-utility/core";
-import { Equal, Expect } from "@unts-utility/shared";
+import type { ObjectKeys } from "@utility-ts/core";
+import { Equal, Expect } from "@utility-ts/shared";
 
 type Case1 = {
   name: string;
@@ -31,5 +31,5 @@ type ObjectKeysCase3 = "hobby";
 type cases = [
   Expect<Equal<ObjectKeys<Case1>, ObjectKeysCase1>>,
   Expect<Equal<ObjectKeys<Case2>, ObjectKeysCase2>>,
-  Expect<Equal<ObjectKeys<Case3>, ObjectKeysCase3>>,
+  Expect<Equal<ObjectKeys<Case3>, ObjectKeysCase3>>
 ];

@@ -1,5 +1,5 @@
-import type { NonUndefined } from "@unts-utility/core";
-import { Equal, Expect } from "@unts-utility/shared";
+import type { NonUndefined } from "@utility-ts/core";
+import { Equal, Expect } from "@utility-ts/shared";
 
 type Case1 = string | undefined;
 type NonUndefinedCase1 = string;
@@ -9,5 +9,5 @@ type NonUndefinedCase2 = string | number[];
 
 type cases = [
   Expect<Equal<NonUndefined<Case1>, NonUndefinedCase1>>,
-  Expect<Equal<NonUndefined<Case2>, NonUndefinedCase2>>,
+  Expect<Equal<NonUndefined<Case2>, NonUndefinedCase2>>
 ];

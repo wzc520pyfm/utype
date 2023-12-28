@@ -1,5 +1,5 @@
-import type { FunctionKeys } from "@unts-utility/core";
-import { Equal, Expect } from "@unts-utility/shared";
+import type { FunctionKeys } from "@utility-ts/core";
+import { Equal, Expect } from "@utility-ts/shared";
 
 type Case1 = {
   name: string;
@@ -14,7 +14,7 @@ type Case2 = {
 };
 type FunctionKeysCase2 = "setName" | "getName";
 
-type TT = FunctionKeys<Case2>
+type TT = FunctionKeys<Case2>;
 
 type cases = [
   Expect<Equal<FunctionKeys<Case1>, FunctionKeysCase1>>,

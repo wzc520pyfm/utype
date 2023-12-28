@@ -1,5 +1,5 @@
-import type { MutableKeys } from "@unts-utility/core";
-import { Equal, Expect } from "@unts-utility/shared";
+import type { MutableKeys } from "@utility-ts/core";
+import { Equal, Expect } from "@utility-ts/shared";
 
 type Case1 = {
   name: string;

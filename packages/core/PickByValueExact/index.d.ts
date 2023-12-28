@@ -1,5 +1,5 @@
-import { NonNeverX } from "@unts-utility/core";
-import { Equal } from "@unts-utility/shared";
+import { NonNeverX } from "@utility-ts/core";
+import { Equal } from "@utility-ts/shared";
 
 /**
  * PickByValueExact

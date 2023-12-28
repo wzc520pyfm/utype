@@ -1,4 +1,4 @@
-import { NonNeverX } from "@unts-utility/core";
+import { NonNeverX } from "@utility-ts/core";
 
 /**
  * PickByValue

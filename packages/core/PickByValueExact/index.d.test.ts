@@ -1,5 +1,5 @@
-import type { PickByValueExact } from "@unts-utility/core";
-import { Equal, Expect } from "@unts-utility/shared";
+import type { PickByValueExact } from "@utility-ts/core";
+import { Equal, Expect } from "@utility-ts/shared";
 
 type Case1 = {
   foo: number;
@@ -24,6 +24,8 @@ type PickByValueExactCase3 = {};
 
 type cases = [
   Expect<Equal<PickByValueExact<Case1, number>, PickByValueExactCase1>>,
-  Expect<Equal<PickByValueExact<Case2, number | undefined>, PickByValueExactCase2>>,
+  Expect<
+    Equal<PickByValueExact<Case2, number | undefined>, PickByValueExactCase2>
+  >,
   Expect<Equal<PickByValueExact<Case3, undefined>, PickByValueExactCase3>>
 ];

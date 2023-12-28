@@ -1,4 +1,4 @@
-import { Duplicate } from "@unts-utility/shared";
+import { Duplicate } from "@utility-ts/shared";
 
 /**
  * NonNeverX
@@ -12,4 +12,4 @@ import { Duplicate } from "@unts-utility/shared";
  *  // Expect: string | boolean
  *  type NonNeverXProp = NonNeverX<Prop>
  */
-export type NonNeverX<T extends object> = Duplicate<T>[keyof T]
+export type NonNeverX<T extends object> = Duplicate<T>[keyof T];

@@ -1,5 +1,5 @@
-import { FunctionKeys } from "@unts-utility/core";
-import { Keys } from "@unts-utility/shared";
+import { FunctionKeys } from "@utility-ts/core";
+import { Keys } from "@utility-ts/shared";
 
 /**
  * NonFunctionKeys
@@ -13,4 +13,7 @@ import { Keys } from "@unts-utility/shared";
  *  // Expect: 'name' | 'age'
  *  type NonFunctionKeysProp = NonFunctionKeys<Prop>
  */
-export type NonFunctionKeys<T extends object> = Exclude<Keys<T>, FunctionKeys<T>>
+export type NonFunctionKeys<T extends object> = Exclude<
+  Keys<T>,
+  FunctionKeys<T>
+>;

@@ -1,4 +1,4 @@
-import { NonNeverX, NonUndefined } from "@unts-utility/core";
+import { NonNeverX, NonUndefined } from "@utility-ts/core";
 
 /**
  * FunctionKeys

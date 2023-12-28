@@ -1,5 +1,5 @@
-import type { NonFunctionKeys } from "@unts-utility/core";
-import { Equal, Expect } from "@unts-utility/shared";
+import type { NonFunctionKeys } from "@utility-ts/core";
+import { Equal, Expect } from "@utility-ts/shared";
 
 type Case1 = {
   name: string;
@@ -29,5 +29,5 @@ type TT = NonFunctionKeys<Case2>;
 type cases = [
   Expect<Equal<NonFunctionKeys<Case1>, NonFunctionKeysCase1>>,
   Expect<Equal<NonFunctionKeys<Case2>, NonFunctionKeysCase2>>,
-  Expect<Equal<NonFunctionKeys<Case3>, NonFunctionKeysCase3>>,
+  Expect<Equal<NonFunctionKeys<Case3>, NonFunctionKeysCase3>>
 ];

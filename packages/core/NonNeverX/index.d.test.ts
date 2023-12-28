@@ -1,5 +1,5 @@
-import type { NonNeverX } from "@unts-utility/core";
-import { Equal, Expect } from "@unts-utility/shared";
+import type { NonNeverX } from "@utility-ts/core";
+import { Equal, Expect } from "@utility-ts/shared";
 
 type Case1 = {
   name: string;
@@ -9,8 +9,8 @@ type Case1 = {
 type NonNeverXCase1 = string | boolean;
 
 type Case2 = {
-  readonly name: 'Alice';
-  readonly age: '40';
+  readonly name: "Alice";
+  readonly age: "40";
 };
 type NonNeverXCase2 = "Alice" | "40";
 type TT = NonNeverX<Case2>;

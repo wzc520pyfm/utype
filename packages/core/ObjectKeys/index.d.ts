@@ -1,5 +1,5 @@
-import { NonNeverX, NonUndefined } from "@unts-utility/core";
-import { ObjectKeyType } from "@unts-utility/shared";
+import { NonNeverX, NonUndefined } from "@utility-ts/core";
+import { ObjectKeyType } from "@utility-ts/shared";
 
 /**
  * ObjectKeys

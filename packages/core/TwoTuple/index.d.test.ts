@@ -1,9 +1,7 @@
-import type { TwoTuple } from "@unts-utility/core"
-import { Equal, Expect } from "@unts-utility/shared"
+import type { TwoTuple } from "@utility-ts/core";
+import { Equal, Expect } from "@utility-ts/shared";
 
-type Case = [string, string]
-type TwoTupleCase = TwoTuple<string>
+type Case = [string, string];
+type TwoTupleCase = TwoTuple<string>;
 
-type cases = [
-  Expect<Equal<TwoTupleCase, Case>>,
-]
+type cases = [Expect<Equal<TwoTupleCase, Case>>];

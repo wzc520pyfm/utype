@@ -1,5 +1,5 @@
 {
-  "name": "unts-utility",
+  "name": "utility-ts",
   "version": "0.0.1",
   "description": "A collection of typescript utility types that extends the official utility types and also includes extensions to framework (Vue, React) types.",
   "scripts": {

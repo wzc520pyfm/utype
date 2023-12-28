@@ -1,5 +1,5 @@
-import { Equal } from "@unts-utility/shared";
-import { Mutable, NonNeverX, NonUndefined } from "@unts-utility/core";
+import { Equal } from "@utility-ts/shared";
+import { Mutable, NonNeverX, NonUndefined } from "@utility-ts/core";
 
 /**
  * MutableKeys
