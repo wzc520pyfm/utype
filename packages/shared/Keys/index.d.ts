@@ -1,7 +1,6 @@
-
 /**
  * Keys
- * @description Get union type of all keys in object type T.
+ * @description Consistent with keyof. Get union type of all keys in object type T.
  * @example
  *  type Prop = {
  *      name: string;
@@ -11,4 +10,4 @@
  *  // Expect: 'name' | 'age' | 'getName'
  *  type KeysProp = Keys<Prop>
  */
-export type Keys<T extends object> = keyof T
+export type Keys<T> = keyof T;
