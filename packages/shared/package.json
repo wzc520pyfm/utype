@@ -1,6 +1,6 @@
 {
   "name": "@utype-ts/shared",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "types": "index.d.ts",
   "scripts": {
