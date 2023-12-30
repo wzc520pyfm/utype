@@ -3,6 +3,7 @@ import { NonNeverX } from "@utility-ts/core";
 /**
  * PickByTypeFuzzy
  * @description From T pick a set of properties by value fuzzy matching ValueType.
+ * @alias PickByValueFuzzy
  * @example
  *  type Prop = {
  *      foo: number;

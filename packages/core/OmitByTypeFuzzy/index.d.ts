@@ -3,6 +3,7 @@ import { NonNeverX } from "@utility-ts/core";
 /**
  * OmitByTypeFuzzy
  * @description From T remove a set of properties by value fuzzy matching ValueType.
+ * @alias OmitByValueFuzzy
  * @example
  *  type Prop = {
  *      foo: number;

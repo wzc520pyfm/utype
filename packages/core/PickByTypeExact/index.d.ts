@@ -4,6 +4,7 @@ import { Equal } from "@utility-ts/shared";
 /**
  * PickByTypeExact
  * @description From T pick a set of properties by value matching exact ValueType.
+ * @alias PickByValueExact
  * @example
  *  type Prop = {
  *      foo: number;

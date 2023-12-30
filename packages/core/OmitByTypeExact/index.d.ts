@@ -4,6 +4,7 @@ import { Equal } from "@utility-ts/shared";
 /**
  * OmitByTypeExact
  * @description From T remove a set of properties by value matching exact ValueType.
+ * @alias OmitByValueExact
  * @example
  *  type Prop = {
  *      foo: number;

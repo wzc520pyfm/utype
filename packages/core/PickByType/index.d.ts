@@ -3,6 +3,7 @@ import { NonNeverX } from "@utility-ts/core";
 /**
  * PickByType
  * @description From T pick a set of properties by value matching ValueType.
+ * @alias PickByValue
  * @example
  *  type Prop = {
  *      foo: number;

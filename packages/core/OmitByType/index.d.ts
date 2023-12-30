@@ -3,6 +3,7 @@ import { NonNeverX } from "@utility-ts/core";
 /**
  * OmitByType
  * @description From T remove a set of properties by value matching ValueType.
+ * @alias OmitByValue
  * @example
  *  type Prop = {
  *      foo: number;
