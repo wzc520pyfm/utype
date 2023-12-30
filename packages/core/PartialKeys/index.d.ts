@@ -4,6 +4,7 @@ import { OmitNever, NonUndefined } from "@utility-ts/core";
 /**
  * PartialKeys
  * @description Get union type of keys that are partial in object type T.
+ * @alias OptionalKeys
  * @example
  *  type Prop = {
  *      name: string;
@@ -21,3 +22,14 @@ export type PartialKeys<
     [K in keyof T]: Equal<Pick<T, K>, Pick<R, K>> extends true ? K : never;
   }>
 >;
+
+// alias
+
+/**
+ * OptionalKeys
+ * @description Alias for PartialKeys
+ */
+export type OptionalKeys<
+  T extends object,
+  R extends Partial<T> = Partial<T>
+> = PartialKeys<T, R>;
