@@ -1,6 +1,7 @@
 export * from './Mutable'
 export * from './MutableX'
 export * from './TwoTuple'
+export * from './Merge'
 export * from './ReadonlyX'
 export * from './DeepReadonly'
 export * from './Nullable'
