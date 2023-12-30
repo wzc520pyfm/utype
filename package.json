@@ -1,6 +1,6 @@
 {
   "name": "utype-ts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A collection of typescript utility types that extends the official utility types and also includes extensions to framework (Vue, React) types.",
   "scripts": {
     "ts-check": "tsc",
@@ -20,6 +20,7 @@
     },
     "./*": "./*"
   },
+  "main": "",
   "types": "./index.d.ts",
   "devDependencies": {
     "typescript": "^5.3.3"
