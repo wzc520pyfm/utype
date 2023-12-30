@@ -4,6 +4,7 @@ import { MergeRight } from "@utility-ts/core";
 /**
  * DeepReadonlyX
  * @description Make specified properties in the object readonly, regardless of how deeply nested they are.
+ * @alias DeepReadonlyByKeys
  * @example
  *  type Prop = {
  *    x: {
@@ -38,3 +39,11 @@ export type DeepReadonlyX<T, P = DeepKeys<T>> = MergeRight<
       : never;
   }
 >;
+
+// alias
+
+/**
+ * DeepReadonlyByKeys
+ * @description Alias for DeepReadonlyX
+ */
+export type DeepReadonlyByKeys<T, P = DeepKeys<T>> = DeepReadonlyX<T, P>;

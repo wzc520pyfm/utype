@@ -3,6 +3,7 @@ import { Duplicate } from "@utility-ts/shared";
 /**
  * ReadonlyX
  * @description Constructs a type by setting the properties specified by `K`(string literal or union of string literals) to readonly from `T`.
+ * @alias ReadonlyByKeys
  * @example
  *  type Prop = {
  *    name: string;
@@ -15,3 +16,11 @@ import { Duplicate } from "@utility-ts/shared";
 export type ReadonlyX<T, K extends keyof T = keyof T> = Duplicate<
   Readonly<Pick<T, K>> & Omit<T, K>
 >;
+
+// alias
+
+/**
+ * ReadonlyByKeys
+ * @description Alias for ReadonlyX
+ */
+export type ReadonlyByKeys<T, K extends keyof T = keyof T> = ReadonlyX<T, K>;

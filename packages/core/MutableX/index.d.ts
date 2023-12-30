@@ -4,6 +4,7 @@ import { Mutable } from "@utility-ts/core";
 /**
  * MutableX
  * @description Constructs a type by setting the properties specified by `K`(string literal or union of string literals) to mutable from `T`.
+ * @alias MutableByKeys
  * @example
  *  type Prop = {
  *    readonly name: string;
@@ -16,3 +17,11 @@ import { Mutable } from "@utility-ts/core";
 export type MutableX<T, K extends keyof T = keyof T> = Duplicate<
   Mutable<Pick<T, K>> & Omit<T, K>
 >;
+
+// alias
+
+/**
+ * MutableByKeys
+ * @description Alias for MutableX
+ */
+export type MutableByKeys<T, K extends keyof T = keyof T> = MutableX<T, K>;
