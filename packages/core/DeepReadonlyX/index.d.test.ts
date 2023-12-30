@@ -1,5 +1,5 @@
 import type { DeepReadonlyX } from "@utility-ts/core";
-import { Equal, Expect, DeepKeys, Keys } from "@utility-ts/shared";
+import { Equal, Expect } from "@utility-ts/shared";
 
 type Case1 = {
   a: 1;

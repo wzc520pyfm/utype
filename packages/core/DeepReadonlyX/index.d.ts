@@ -1,5 +1,5 @@
 import { DeepKeys, Keys, OnlyObject } from "@utility-ts/shared";
-import { Merge } from "@utility-ts/core";
+import { MergeRight } from "@utility-ts/core";
 
 /**
  * DeepReadonlyX
@@ -22,7 +22,7 @@ import { Merge } from "@utility-ts/core";
  * type DeepReadonlyXProp = DeepReadonlyX<Prop, 'b' | 'y'>
  */
 // todo: The P should be constrained within DeepKeys<T>
-export type DeepReadonlyX<T, P = DeepKeys<T>> = Merge<
+export type DeepReadonlyX<T, P = DeepKeys<T>> = MergeRight<
   {
     [K in Exclude<Keys<T>, P>]: K extends P
       ? never
