@@ -1,4 +1,5 @@
 export * from './Keys'
 export * from './DeepKeys'
 export * from './ObjectKeyType'
+export * from './OnlyObject'
 export * from './utils'
