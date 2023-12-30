@@ -20,6 +20,7 @@ import { Keys } from "@utility-ts/shared";
  *  // }
  * type DeepReadonlyProp = DeepReadonly<Prop>
  */
+// todo need support arr, fun, class, etc.
 export type DeepReadonly<T> = {
   readonly [K in Keys<T>]: Keys<T[K]> extends never ? T[K] : DeepReadonly<T[K]>;
 };
