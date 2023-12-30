@@ -1,5 +1,5 @@
-import type { PartialKeys } from "@utility-ts/core";
-import { Equal, Expect } from "@utility-ts/shared";
+import type { PartialKeys } from "@utype-ts/core";
+import { Equal, Expect } from "@utype-ts/shared";
 
 type Case1 = {
   name: string;

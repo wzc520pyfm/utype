@@ -1,5 +1,5 @@
 {
-  "name": "@utility-ts/docs",
+  "name": "@utype-ts/docs",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,12 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
-  "keywords": ["utility", "typescript", "types", "utility types"],
+  "keywords": [
+    "utility",
+    "typescript",
+    "types",
+    "utility types"
+  ],
   "author": "wzc520pyfm",
   "license": "MIT",
   "devDependencies": {

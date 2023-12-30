@@ -1,4 +1,4 @@
-import { Merge, MergeLeft, MergeRight } from "@utility-ts/core";
+import { Merge, MergeLeft, MergeRight } from "@utype-ts/core";
 
 /**
  * MergeAll
@@ -24,7 +24,10 @@ export type MergeAll<XS, Prev = {}> = XS extends [infer First, ...infer Rest]
  *  // Expect: { a: 1; b: 2; c: 3 }
  *  type MergeAllResult = MergeAll<[Foo, Bar, Baz]>
  */
-export type MergeLeftAll<XS, Prev = {}> = XS extends [infer First, ...infer Rest]
+export type MergeLeftAll<XS, Prev = {}> = XS extends [
+  infer First,
+  ...infer Rest
+]
   ? MergeLeftAll<Rest, MergeLeft<Prev, First>>
   : Prev;
 
@@ -38,6 +41,9 @@ export type MergeLeftAll<XS, Prev = {}> = XS extends [infer First, ...infer Rest
  *  // Expect: { a: 2; b: 2; c: 3 }
  *  type MergeAllResult = MergeAll<[Foo, Bar, Baz]>
  */
-export type MergeRightAll<XS, Prev = {}> = XS extends [infer First, ...infer Rest]
+export type MergeRightAll<XS, Prev = {}> = XS extends [
+  infer First,
+  ...infer Rest
+]
   ? MergeRightAll<Rest, MergeRight<Prev, First>>
   : Prev;

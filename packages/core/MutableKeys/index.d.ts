@@ -1,5 +1,5 @@
-import { Equal } from "@utility-ts/shared";
-import { Mutable, OmitNever, NonUndefined } from "@utility-ts/core";
+import { Equal } from "@utype-ts/shared";
+import { Mutable, OmitNever, NonUndefined } from "@utype-ts/core";
 
 /**
  * MutableKeys

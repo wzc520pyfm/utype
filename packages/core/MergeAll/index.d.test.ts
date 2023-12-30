@@ -1,5 +1,5 @@
-import type { MergeAll, MergeLeftAll, MergeRightAll } from "@utility-ts/core";
-import { Equal, Expect } from "@utility-ts/shared";
+import type { MergeAll, MergeLeftAll, MergeRightAll } from "@utype-ts/core";
+import { Equal, Expect } from "@utype-ts/shared";
 
 type Case1Foo = { a: 1; b: 2 };
 type Case1Bar = { a: 2 };
@@ -30,6 +30,10 @@ type MergeRightAllCase3 = {
 
 type cases = [
   Expect<Equal<MergeAll<[Case1Foo, Case1Bar, Case1Baz]>, MergeAllCase1>>,
-  Expect<Equal<MergeLeftAll<[Case2Foo, Case2Bar, Case2Baz]>, MergeLeftAllCase2>>,
-  Expect<Equal<MergeRightAll<[Case3Foo, Case3Bar, Case3Baz]>, MergeRightAllCase3>>,
+  Expect<
+    Equal<MergeLeftAll<[Case2Foo, Case2Bar, Case2Baz]>, MergeLeftAllCase2>
+  >,
+  Expect<
+    Equal<MergeRightAll<[Case3Foo, Case3Bar, Case3Baz]>, MergeRightAllCase3>
+  >
 ];

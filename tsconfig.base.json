@@ -6,14 +6,14 @@
     "strict": true,
     "moduleResolution": "node",
     "paths": {
-      "@utility-ts/core": ["./packages/core/index.d.ts"],
-      "@utility-ts/core/*": ["./packages/core/*"],
-      "@utility-ts/vue": ["./packages/vue/index.d.ts"],
-      "@utility-ts/vue/*": ["./packages/vue/*"],
-      "@utility-ts/react": ["./packages/react/index.d.ts"],
-      "@utility-ts/react/*": ["./packages/react/*"],
-      "@utility-ts/shared": ["./packages/shared/index.d.ts"],
-      "@utility-ts/shared/*": ["./packages/shared/*"]
+      "@utype-ts/core": ["./packages/core/index.d.ts"],
+      "@utype-ts/core/*": ["./packages/core/*"],
+      "@utype-ts/vue": ["./packages/vue/index.d.ts"],
+      "@utype-ts/vue/*": ["./packages/vue/*"],
+      "@utype-ts/react": ["./packages/react/index.d.ts"],
+      "@utype-ts/react/*": ["./packages/react/*"],
+      "@utype-ts/shared": ["./packages/shared/index.d.ts"],
+      "@utype-ts/shared/*": ["./packages/shared/*"]
     },
     "noUnusedLocals": false,
     "noUnusedParameters": true,

@@ -1,4 +1,4 @@
-import { OmitNever, NonUndefined } from "@utility-ts/core";
+import { OmitNever, NonUndefined } from "@utype-ts/core";
 
 /**
  * FunctionKeys

@@ -1,4 +1,4 @@
-import { Keys } from "@utility-ts/shared";
+import { Keys } from "@utype-ts/shared";
 
 /**
  * DeepReadonly

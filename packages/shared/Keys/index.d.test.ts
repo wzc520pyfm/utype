@@ -1,4 +1,4 @@
-import { Keys, Equal, Expect } from "@utility-ts/shared";
+import { Keys, Equal, Expect } from "@utype-ts/shared";
 
 type Case1 = {
   readonly name: string;
@@ -7,6 +7,4 @@ type Case1 = {
 };
 type KeysCase1 = "name" | "age" | "visible";
 
-type cases = [
-  Expect<Equal<Keys<Case1>, KeysCase1>>,
-];
+type cases = [Expect<Equal<Keys<Case1>, KeysCase1>>];

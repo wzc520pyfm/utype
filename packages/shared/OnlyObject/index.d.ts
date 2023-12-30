@@ -1,4 +1,4 @@
-import { ObjectKeyType } from "@utility-ts/shared";
+import { ObjectKeyType } from "@utype-ts/shared";
 
 /**
  * OnlyObject

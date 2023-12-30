@@ -1,4 +1,4 @@
-import { Keys, OnlyObject } from "@utility-ts/shared";
+import { Keys, OnlyObject } from "@utype-ts/shared";
 
 /**
  * DeepPartial

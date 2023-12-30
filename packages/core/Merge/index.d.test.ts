@@ -1,5 +1,5 @@
-import type { Merge, MergeLeft, MergeRight } from "@utility-ts/core";
-import { Equal, Expect } from "@utility-ts/shared";
+import type { Merge, MergeLeft, MergeRight } from "@utype-ts/core";
+import { Equal, Expect } from "@utype-ts/shared";
 
 type Case1Foo = {
   name: string;
@@ -85,5 +85,5 @@ type cases = [
   Expect<Equal<Merge<Case2Foo, Case2Bar>, MergeCase2>>,
   Expect<Equal<Merge<Case3Foo, Case3Bar>, MergeCase3>>,
   Expect<Equal<MergeLeft<Case4Foo, Case4Bar>, MergeLeftCase4>>,
-  Expect<Equal<MergeRight<Case5Foo, Case5Bar>, MergeRightCase5>>,
+  Expect<Equal<MergeRight<Case5Foo, Case5Bar>, MergeRightCase5>>
 ];

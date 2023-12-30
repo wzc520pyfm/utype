@@ -1,5 +1,5 @@
-import type { Nullable } from "@utility-ts/core";
-import { Equal, Expect } from "@utility-ts/shared";
+import type { Nullable } from "@utype-ts/core";
+import { Equal, Expect } from "@utype-ts/shared";
 
 type Case1 = string;
 type NullableCase1 = string | null | undefined;

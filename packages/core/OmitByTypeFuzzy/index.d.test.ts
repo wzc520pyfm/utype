@@ -1,5 +1,5 @@
-import type { OmitByTypeFuzzy } from "@utility-ts/core";
-import { Equal, Expect } from "@utility-ts/shared";
+import type { OmitByTypeFuzzy } from "@utype-ts/core";
+import { Equal, Expect } from "@utype-ts/shared";
 
 type Case1 = {
   foo: number;

@@ -1,5 +1,5 @@
-import type { DeepReadonlyX } from "@utility-ts/core";
-import { Equal, Expect } from "@utility-ts/shared";
+import type { DeepReadonlyX } from "@utype-ts/core";
+import { Equal, Expect } from "@utype-ts/shared";
 
 type Case1 = {
   a: 1;
@@ -8,7 +8,7 @@ type Case1 = {
 type DeepReadonlyXCase1 = {
   a: 1;
   readonly b: "hi";
-}
+};
 
 type Case2 = {
   x: {
@@ -105,11 +105,11 @@ type Case6 = { a: string } | { b: number };
 type DeepReadonlyXCase6 = { readonly a: string } | { readonly b: number };
 
 type cases = [
-  Expect<Equal<DeepReadonlyX<Case1, 'b'>, DeepReadonlyXCase1>>,
-  Expect<Equal<DeepReadonlyX<Case2, 'b' | 'y'>, DeepReadonlyXCase2>>,
+  Expect<Equal<DeepReadonlyX<Case1, "b">, DeepReadonlyXCase1>>,
+  Expect<Equal<DeepReadonlyX<Case2, "b" | "y">, DeepReadonlyXCase2>>,
   Expect<Equal<DeepReadonlyX<Case3>, DeepReadonlyXCase3>>,
-  Expect<Equal<DeepReadonlyX<Case4, 'h' | 'e'>, DeepReadonlyXCase4>>,
-  Expect<Equal<DeepReadonlyX<Case5, 'b'>, DeepReadonlyXCase5>>,
+  Expect<Equal<DeepReadonlyX<Case4, "h" | "e">, DeepReadonlyXCase4>>,
+  Expect<Equal<DeepReadonlyX<Case5, "b">, DeepReadonlyXCase5>>
   // todo need support
   // Expect<Equal<DeepReadonlyX<Case6>, DeepReadonlyXCase6>>,
 ];

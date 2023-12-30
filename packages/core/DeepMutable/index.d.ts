@@ -1,4 +1,4 @@
-import { Keys } from "@utility-ts/shared";
+import { Keys } from "@utype-ts/shared";
 
 /**
  * DeepMutable
@@ -20,6 +20,8 @@ import { Keys } from "@utility-ts/shared";
  *  // }
  * type DeepMutableProp = DeepMutable<Prop>
  */
-export type DeepMutable<T extends object> = T extends Function ? T : {
-  -readonly [K in Keys<T>]: T[K] extends object ? DeepMutable<T[K]> : T[K];
-};
+export type DeepMutable<T extends object> = T extends Function
+  ? T
+  : {
+      -readonly [K in Keys<T>]: T[K] extends object ? DeepMutable<T[K]> : T[K];
+    };

@@ -1,12 +1,17 @@
 {
-  "name": "@utility-ts/react",
+  "name": "@utype-ts/react",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "tsc"
   },
-  "keywords": ["utility", "typescript", "types", "utility types"],
+  "keywords": [
+    "utility",
+    "typescript",
+    "types",
+    "utility types"
+  ],
   "author": "wzc520pyfm",
   "license": "MIT",
   "dependencies": {

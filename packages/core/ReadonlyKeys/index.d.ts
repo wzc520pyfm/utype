@@ -1,5 +1,5 @@
-import { Equal } from "@utility-ts/shared";
-import { OmitNever, NonUndefined } from "@utility-ts/core";
+import { Equal } from "@utype-ts/shared";
+import { OmitNever, NonUndefined } from "@utype-ts/core";
 
 /**
  * ReadonlyKeys

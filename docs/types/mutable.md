@@ -6,7 +6,7 @@ Like Readonly, but it will remove the readonly of the object property.
 ## Usage
 
 ```ts
-import type { Mutable } from '@utility-ts/core'
+import type { Mutable } from '@utype-ts/core'
 
 type Props = { readonly name: string; }
 

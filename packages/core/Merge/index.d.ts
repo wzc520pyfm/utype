@@ -1,5 +1,5 @@
-import { Duplicate, Keys } from "@utility-ts/shared";
-import { ReadonlyKeys, PartialKeys } from "@utility-ts/core";
+import { Duplicate, Keys } from "@utype-ts/shared";
+import { ReadonlyKeys, PartialKeys } from "@utype-ts/core";
 
 /**
  * Merge
@@ -22,13 +22,25 @@ import { ReadonlyKeys, PartialKeys } from "@utility-ts/core";
  */
 export type Merge<F extends object, S extends object> = Duplicate<
   {
-    [K in Exclude<Keys<F> | Keys<S>, ReadonlyKeys<F> | ReadonlyKeys<S> | PartialKeys<F> | PartialKeys<S>>]: F[K & Keys<F>] | S[K & Keys<S>]
+    [K in Exclude<
+      Keys<F> | Keys<S>,
+      ReadonlyKeys<F> | ReadonlyKeys<S> | PartialKeys<F> | PartialKeys<S>
+    >]: F[K & Keys<F>] | S[K & Keys<S>];
   } & {
-    readonly [K in Exclude<ReadonlyKeys<F> | ReadonlyKeys<S>, PartialKeys<F> | PartialKeys<S>>]: F[K & Keys<F>] | S[K & Keys<S>];
+    readonly [K in Exclude<
+      ReadonlyKeys<F> | ReadonlyKeys<S>,
+      PartialKeys<F> | PartialKeys<S>
+    >]: F[K & Keys<F>] | S[K & Keys<S>];
   } & {
-    readonly [K in Extract<ReadonlyKeys<F> | ReadonlyKeys<S>, PartialKeys<F> | PartialKeys<S>>]?: F[K & Keys<F>] | S[K & Keys<S>];
+    readonly [K in Extract<
+      ReadonlyKeys<F> | ReadonlyKeys<S>,
+      PartialKeys<F> | PartialKeys<S>
+    >]?: F[K & Keys<F>] | S[K & Keys<S>];
   } & {
-    [K in Exclude<PartialKeys<F> | PartialKeys<S>, ReadonlyKeys<F> | ReadonlyKeys<S>>]?: F[K & Keys<F>] | S[K & Keys<S>];
+    [K in Exclude<
+      PartialKeys<F> | PartialKeys<S>,
+      ReadonlyKeys<F> | ReadonlyKeys<S>
+    >]?: F[K & Keys<F>] | S[K & Keys<S>];
   }
 >;
 

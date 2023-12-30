@@ -1,5 +1,5 @@
-import { FunctionKeys } from "@utility-ts/core";
-import { Keys } from "@utility-ts/shared";
+import { FunctionKeys } from "@utype-ts/core";
+import { Keys } from "@utype-ts/shared";
 
 /**
  * NonFunctionKeys
