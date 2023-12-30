@@ -1,8 +1,7 @@
 {
   "name": "utype-ts",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A collection of typescript utility types that extends the official utility types and also includes extensions to framework (Vue, React) types.",
-  "types": "index.d.ts",
   "scripts": {
     "ts-check": "tsc",
     "docs:dev": "pnpm run -C docs dev"
@@ -15,6 +14,13 @@
   ],
   "author": "wzc520pyfm",
   "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts"
+    },
+    "./*": "./*"
+  },
+  "types": "./index.d.ts",
   "devDependencies": {
     "typescript": "^5.3.3"
   }
