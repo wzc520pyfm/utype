@@ -1,7 +1,7 @@
 import { NonNeverX } from "@utility-ts/core";
 
 /**
- * PickByValue
+ * PickByType
  * @description From T pick a set of properties by value matching ValueType.
  * @example
  *  type Prop = {
@@ -10,13 +10,21 @@ import { NonNeverX } from "@utility-ts/core";
  *      faz: boolean;
  *  }
  *  // Expect: { foo: number; }
- *  type PickByValueProp1 = PickByValue<Prop, number>
+ *  type PickByTypeProp1 = PickByType<Prop, number>
  *  // Expect: { foo: number; bar: number | undefined; }
- *  type PickByValueProp2 = PickByValue<Prop, number | undefined>
+ *  type PickByTypeProp2 = PickByType<Prop, number | undefined>
  */
-export type PickByValue<T, ValueType> = Pick<
+export type PickByType<T, ValueType> = Pick<
   T,
   NonNeverX<{
     [K in keyof T]: T[K] extends ValueType ? K : never;
   }>
 >;
+
+// alias
+
+/**
+ * PickByValue
+ * @description Alias for PickByType
+ */
+export type PickByValue<T, ValueType> = PickByType<T, ValueType>;

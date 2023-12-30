@@ -1,7 +1,7 @@
 import { NonNeverX } from "@utility-ts/core";
 
 /**
- * PickByValueFuzzy
+ * PickByTypeFuzzy
  * @description From T pick a set of properties by value fuzzy matching ValueType.
  * @example
  *  type Prop = {
@@ -10,13 +10,21 @@ import { NonNeverX } from "@utility-ts/core";
  *      faz: boolean;
  *  }
  *  // Expect: { bar?: number; }
- *  type PickByValueFuzzyProp1 = PickByValueFuzzy<Prop, undefined>
+ *  type PickByTypeFuzzyProp1 = PickByTypeFuzzy<Prop, undefined>
  *  // Expect: { bar?: number; faz: boolean; }
- *  type PickByValueFuzzyProp2 = PickByValueFuzzy<Prop, boolean | undefined>
+ *  type PickByTypeFuzzyProp2 = PickByTypeFuzzy<Prop, boolean | undefined>
  */
-export type PickByValueFuzzy<T, ValueType> = Pick<
+export type PickByTypeFuzzy<T, ValueType> = Pick<
   T,
   NonNeverX<{
     [K in keyof T]: Extract<T[K], ValueType> extends never ? never : K;
   }>
 >;
+
+// alias
+
+/**
+ * PickByValueFuzzy
+ * @description Alias for PickByTypeFuzzy
+ */
+export type PickByValueFuzzy<T, ValueType> = PickByTypeFuzzy<T, ValueType>;

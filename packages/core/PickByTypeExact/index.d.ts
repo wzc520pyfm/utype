@@ -2,7 +2,7 @@ import { NonNeverX } from "@utility-ts/core";
 import { Equal } from "@utility-ts/shared";
 
 /**
- * PickByValueExact
+ * PickByTypeExact
  * @description From T pick a set of properties by value matching exact ValueType.
  * @example
  *  type Prop = {
@@ -11,13 +11,21 @@ import { Equal } from "@utility-ts/shared";
  *      faz: string;
  *  }
  *  // Expect: { foo: number; }
- *  type PickByValueExactProp1 = PickByValueExact<Prop, number>
+ *  type PickByTypeExactProp1 = PickByTypeExact<Prop, number>
  *  // Expect: { bar: number | undefined; }
- *  type PickByValueExactProp2 = PickByValueExact<Prop, number | undefined>
+ *  type PickByTypeExactProp2 = PickByTypeExact<Prop, number | undefined>
  */
-export type PickByValueExact<T, ValueType> = Pick<
+export type PickByTypeExact<T, ValueType> = Pick<
   T,
   NonNeverX<{
     [K in keyof T]: Equal<T[K], ValueType> extends true ? K : never;
   }>
 >;
+
+// alias
+
+/**
+ * PickByValueExact
+ * @description Alias for PickByTypeExact
+ */
+export type PickByValueExact<T, ValueType> = PickByTypeExact<T, ValueType>;
