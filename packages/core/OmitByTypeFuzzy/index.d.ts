@@ -1,4 +1,4 @@
-import { NonNeverX } from "@utility-ts/core";
+import { OmitNever } from "@utility-ts/core";
 
 /**
  * OmitByTypeFuzzy
@@ -17,7 +17,7 @@ import { NonNeverX } from "@utility-ts/core";
  */
 export type OmitByTypeFuzzy<T, ValueType> = Omit<
   T,
-  NonNeverX<{
+  OmitNever<{
     [K in keyof T]: Extract<T[K], ValueType> extends never ? never : K;
   }>
 >;

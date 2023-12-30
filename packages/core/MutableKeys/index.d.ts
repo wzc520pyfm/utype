@@ -1,5 +1,5 @@
 import { Equal } from "@utility-ts/shared";
-import { Mutable, NonNeverX, NonUndefined } from "@utility-ts/core";
+import { Mutable, OmitNever, NonUndefined } from "@utility-ts/core";
 
 /**
  * MutableKeys
@@ -17,7 +17,7 @@ export type MutableKeys<
   T extends object,
   R extends Record<keyof T, unknown> = Mutable<T>
 > = NonUndefined<
-  NonNeverX<{
+  OmitNever<{
     [K in keyof T]: Equal<Pick<T, K>, Pick<R, K>> extends true ? K : never;
   }>
 >;

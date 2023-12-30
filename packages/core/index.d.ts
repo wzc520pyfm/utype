@@ -1,10 +1,11 @@
 export * from './Mutable'
-export * from './MutableX'
 export * from './DeepMutable'
-export * from './ReadonlyX'
 export * from './DeepReadonly'
-export * from './DeepReadonlyX'
 export * from './DeepPartial'
+
+export * from './MutableX'
+export * from './ReadonlyX'
+export * from './DeepReadonlyX'
 
 export * from './Merge'
 export * from './MergeAll'
@@ -12,7 +13,7 @@ export * from './MergeAll'
 export * from './TwoTuple'
 export * from './Nullable'
 export * from './NonUndefined'
-export * from './NonNeverX'
+export * from './OmitNever'
 
 export * from './ReadonlyKeys'
 export * from './MutableKeys'

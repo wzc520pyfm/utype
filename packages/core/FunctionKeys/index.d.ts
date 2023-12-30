@@ -1,4 +1,4 @@
-import { NonNeverX, NonUndefined } from "@utility-ts/core";
+import { OmitNever, NonUndefined } from "@utility-ts/core";
 
 /**
  * FunctionKeys
@@ -12,7 +12,7 @@ import { NonNeverX, NonUndefined } from "@utility-ts/core";
  *  // Expect: 'setName' | 'getName'
  *  type FunctionKeysProp = FunctionKeys<Prop>
  */
-export type FunctionKeys<T extends object> = NonNeverX<
+export type FunctionKeys<T extends object> = OmitNever<
   Required<{
     [K in keyof T]: NonUndefined<T[K]> extends Function ? K : never;
   }>

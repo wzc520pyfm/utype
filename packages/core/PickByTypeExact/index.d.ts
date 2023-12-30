@@ -1,4 +1,4 @@
-import { NonNeverX } from "@utility-ts/core";
+import { OmitNever } from "@utility-ts/core";
 import { Equal } from "@utility-ts/shared";
 
 /**
@@ -18,7 +18,7 @@ import { Equal } from "@utility-ts/shared";
  */
 export type PickByTypeExact<T, ValueType> = Pick<
   T,
-  NonNeverX<{
+  OmitNever<{
     [K in keyof T]: Equal<T[K], ValueType> extends true ? K : never;
   }>
 >;

@@ -1,4 +1,4 @@
-import { NonNeverX, NonUndefined } from "@utility-ts/core";
+import { OmitNever, NonUndefined } from "@utility-ts/core";
 import { ObjectKeyType } from "@utility-ts/shared";
 
 /**
@@ -14,7 +14,7 @@ import { ObjectKeyType } from "@utility-ts/shared";
  *  type ObjectKeysProp = ObjectKeys<Prop>
  */
 export type ObjectKeys<T extends object> = NonUndefined<
-  NonNeverX<{
+  OmitNever<{
     [K in keyof T]: NonUndefined<T[K]> extends Record<ObjectKeyType, unknown>
       ? K
       : never;

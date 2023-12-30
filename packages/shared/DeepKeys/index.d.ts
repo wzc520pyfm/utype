@@ -1,5 +1,5 @@
-import { NonUndefined } from './../../core/NonUndefined/index.d';
-import { NonNeverX } from "@utility-ts/core";
+import { NonUndefined } from "./../../core/NonUndefined/index.d";
+import { OmitNever } from "@utility-ts/core";
 import { Keys } from "@utility-ts/shared";
 
 /**
@@ -19,5 +19,7 @@ import { Keys } from "@utility-ts/shared";
  *  type DeepKeysProp = DeepKeys<Prop>
  */
 export type DeepKeys<T> = T extends object
-  ? NonUndefined<NonNeverX<{ [K in Keys<T>]: `${K & string}` | DeepKeys<T[K]> }>>
+  ? NonUndefined<
+      OmitNever<{ [K in Keys<T>]: `${K & string}` | DeepKeys<T[K]> }>
+    >
   : never;

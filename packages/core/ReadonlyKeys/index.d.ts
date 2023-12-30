@@ -1,5 +1,5 @@
 import { Equal } from "@utility-ts/shared";
-import { NonNeverX, NonUndefined } from "@utility-ts/core";
+import { OmitNever, NonUndefined } from "@utility-ts/core";
 
 /**
  * ReadonlyKeys
@@ -17,7 +17,7 @@ export type ReadonlyKeys<
   T extends object,
   R extends Record<keyof T, unknown> = Readonly<T>
 > = NonUndefined<
-  NonNeverX<{
+  OmitNever<{
     [K in keyof T]: Equal<Pick<T, K>, Pick<R, K>> extends true ? K : never;
   }>
 >;

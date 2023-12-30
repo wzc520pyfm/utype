@@ -1,7 +1,7 @@
 import { Duplicate } from "@utility-ts/shared";
 
 /**
- * NonNeverX
+ * OmitNever
  * @description Get Union type of object property types, but filtered out never types.
  * @example
  *  type Prop = {
@@ -10,6 +10,14 @@ import { Duplicate } from "@utility-ts/shared";
  *      visible: boolean;
  *  }
  *  // Expect: string | boolean
- *  type NonNeverXProp = NonNeverX<Prop>
+ *  type OmitNeverProp = OmitNever<Prop>
  */
-export type NonNeverX<T extends object> = Duplicate<T>[keyof T];
+export type OmitNever<T extends object> = Duplicate<T>[keyof T];
+
+// compatible
+
+/**
+ * NonNeverX
+ * @deprecated Not supported anymore; Please use OmitNever instead.
+ */
+export type NonNeverX<T extends object> = OmitNever<T>;
