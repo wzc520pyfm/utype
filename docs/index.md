@@ -15,19 +15,22 @@ hero:
     - theme: alt
       text: Utility Types
       link: /types/mutable
-    - theme: alt
-      text: Add-ons
-      link: /api-examples
+    # - theme: alt
+    #   text: Add-ons
+    #   link: /api-examples
     - theme: alt
       text: View on GitHub
       link: https://github.com/vuejs/vitepress
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature Rich
+    icon: 🚀
+    details: 50+ Utility Types for you to choose from
+  - title: Consistent
+    icon: 🔋
+    details: Still Continuously Adding Types 
+  - title: Type Strong
+    icon: 💪
+    details: Pure TypeScript
 ---
 

@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["utility", "typescript", "types", "utility types"],
+  "author": "wzc520pyfm",
   "license": "MIT",
   "devDependencies": {
     "vitepress": "1.0.0-rc.32"

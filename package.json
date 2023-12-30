@@ -3,11 +3,10 @@
   "version": "0.0.1",
   "description": "A collection of typescript utility types that extends the official utility types and also includes extensions to framework (Vue, React) types.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "ts-check": "tsc",
     "docs:dev": "pnpm run -C docs dev"
   },
-  "keywords": [],
+  "keywords": ["utility", "typescript", "types", "utility types"],
   "author": "wzc520pyfm",
   "license": "MIT",
   "devDependencies": {
