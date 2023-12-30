@@ -1,7 +1,7 @@
 import { NonNeverX } from "@utility-ts/core";
 
 /**
- * OmitByValueFuzzy
+ * OmitByTypeFuzzy
  * @description From T remove a set of properties by value fuzzy matching ValueType.
  * @example
  *  type Prop = {
@@ -10,13 +10,21 @@ import { NonNeverX } from "@utility-ts/core";
  *      faz: boolean;
  *  }
  *  // Expect: { foo: number; faz: boolean }
- *  type OmitByValueFuzzyProp1 = OmitByValueFuzzy<Prop, undefined>
+ *  type OmitByTypeFuzzyProp1 = OmitByTypeFuzzy<Prop, undefined>
  *  // Expect: { foo: number }
- *  type OmitByValueFuzzyProp2 = OmitByValueFuzzy<Prop, boolean | undefined>
+ *  type OmitByTypeFuzzyProp2 = OmitByTypeFuzzy<Prop, boolean | undefined>
  */
-export type OmitByValueFuzzy<T, ValueType> = Omit<
+export type OmitByTypeFuzzy<T, ValueType> = Omit<
   T,
   NonNeverX<{
     [K in keyof T]: Extract<T[K], ValueType> extends never ? never : K;
   }>
 >;
+
+// alias
+
+/**
+ * OmitByValueFuzzy
+ * @description Alias for OmitByTypeFuzzy
+ */
+export type OmitByValueFuzzy<T, ValueType> = OmitByTypeFuzzy<T, ValueType>;

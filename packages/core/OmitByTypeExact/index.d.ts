@@ -2,7 +2,7 @@ import { NonNeverX } from "@utility-ts/core";
 import { Equal } from "@utility-ts/shared";
 
 /**
- * OmitByValueExact
+ * OmitByTypeExact
  * @description From T remove a set of properties by value matching exact ValueType.
  * @example
  *  type Prop = {
@@ -11,13 +11,21 @@ import { Equal } from "@utility-ts/shared";
  *      faz: boolean;
  *  }
  *  // Expect: { bar: number | undefined; faz: boolean; }
- *  type OmitByValueExactProp1 = OmitByValueExact<Prop, number>
+ *  type OmitByTypeExactProp1 = OmitByTypeExact<Prop, number>
  *  // Expect: { foo: number; faz: boolean; }
- *  type OmitByValueExactProp2 = OmitByValueExact<Prop, number | undefined>
+ *  type OmitByTypeExactProp2 = OmitByTypeExact<Prop, number | undefined>
  */
-export type OmitByValueExact<T, ValueType> = Omit<
+export type OmitByTypeExact<T, ValueType> = Omit<
   T,
   NonNeverX<{
     [K in keyof T]: Equal<T[K], ValueType> extends true ? K : never;
   }>
 >;
+
+// alias
+
+/**
+ * OmitByValueExact
+ * @description Alias for OmitByTypeExact
+ */
+export type OmitByValueExact<T, ValueType> = OmitByTypeExact<T, ValueType>;
