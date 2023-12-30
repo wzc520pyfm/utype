@@ -2,6 +2,7 @@
   "compilerOptions": {
     "module": "esnext",
     "target": "es2017",
+    "declaration": true,
     "lib": ["ESNext"],
     "strict": true,
     "moduleResolution": "node",
@@ -26,5 +27,9 @@
     "noEmit": true,
     "forceConsistentCasingInFileNames": true
   },
+  "include": [
+    "*.ts",
+    "packages"
+  ],
   "exclude": ["node_modules", "dist"]
 }
