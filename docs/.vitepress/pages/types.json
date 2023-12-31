@@ -49,6 +49,10 @@
       {
         "link": "/merge-left-all",
         "text": "MergeLeftAll"
+      },
+      {
+        "link": "/merge-right-all",
+        "text": "MergeRightAll"
       }
     ]
   },
