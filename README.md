@@ -15,3 +15,9 @@ type MutableProp = Mutable<Prop>
 ```bash
 npm i @utype/core
 ```
+
+## 🥰 Contributors
+
+<a href="https://github.com/wzc520pyfm/utype/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=wzc520pyfm/utype" />
+</a>
