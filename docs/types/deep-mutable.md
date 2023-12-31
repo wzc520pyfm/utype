@@ -14,14 +14,14 @@ type Prop = {
     readonly b: 'hi'
   },
   readonly y: 'hey'
-  }
+}
 
-  // Expect: {
-  //   x: {
-  //     a: 1,
-  //     b: 'hi'
-  //   }
-  //   y: 'hey'
-  // }
+// Expect: {
+//   x: {
+//     a: 1,
+//     b: 'hi'
+//   }
+//   y: 'hey'
+// }
 type DeepMutableProp = DeepMutable<Prop>
 ```
