@@ -9,6 +9,10 @@
       {
         "link": "/deep-mutable",
         "text": "DeepMutable"
+      },
+      {
+        "link": "/deep-readonly",
+        "text": "DeepReadonly"
       }
     ]
   },
