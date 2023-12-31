@@ -29,6 +29,10 @@
       {
         "link": "/deep-readonly-x",
         "text": "DeepReadonlyX"
+      },
+      {
+        "link": "/merge",
+        "text": "Merge"
       }
     ]
   },
