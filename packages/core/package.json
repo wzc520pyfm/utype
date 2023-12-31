@@ -1,13 +1,27 @@
 {
   "name": "@utype-ts/core",
-  "version": "0.0.5",
-  "description": "",
-  "main": "",
-  "types": "index.d.ts",
+  "version": "0.0.6",
+  "description": "C of typescript utility types that extends the official utility types",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ts-check": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "keywords": [
+    "utility",
+    "typescript",
+    "types",
+    "utility types"
+  ],
+  "author": "wzc520pyfm",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts"
+    },
+    "./*": "./*"
+  },
+  "main": "",
+  "types": "./index.d.ts",
+  "dependencies": {
+    "@utype-ts/shared": "workspace:*"
+  }
 }
