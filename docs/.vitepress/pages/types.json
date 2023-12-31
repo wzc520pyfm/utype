@@ -5,6 +5,10 @@
       {
         "link": "/mutable",
         "text": "Mutable"
+      },
+      {
+        "link": "/deep-mutable",
+        "text": "DeepMutable"
       }
     ]
   },
