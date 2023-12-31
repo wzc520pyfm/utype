@@ -9,18 +9,18 @@ Merge two types into a new type. If the keys overlap, its values should be merge
 import type { Merge } from '@utype/core'
 
 type Foo = {
-    name: string;
-    age: string;
+  name: string;
+  age: string;
 }
 type Bar = {
-    age: number;
-    sex: string;
+  age: number;
+  sex: string;
 }
 
 // Expect: {
-//     name: string;
-//     age: number | string;
-//     sex: string;
+//   name: string;
+//   age: number | string;
+//   sex: string;
 // }
 type MergeResult = Merge<Foo, Bar>
 ```
