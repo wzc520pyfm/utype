@@ -19,5 +19,9 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
   }
 }
