@@ -20,7 +20,7 @@ hero:
     #   link: /api-examples
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/wzc520pyfm/utype
 
 features:
   - title: Feature Rich

@@ -1,2 +1,23 @@
 
-### Quick Started
+# Get Started
+
+## Installation
+
+```bash
+npm i @utype/core
+```
+
+## Usage Example
+
+Simply importing the utility type you need from `@utype/core`
+
+```ts
+import type { Mutable } from '@utype/core'
+
+type Props = { readonly name: string; }
+
+// Expect: { name: string }
+type MutableProp = Mutable<Prop>
+```
+
+Refer to [type list](/types/mutable) for more details.
