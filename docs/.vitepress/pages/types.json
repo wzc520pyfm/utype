@@ -41,6 +41,10 @@
       {
         "link": "/merge-right",
         "text": "MergeRight"
+      },
+      {
+        "link": "/merge-all",
+        "text": "MergeAll"
       }
     ]
   },
