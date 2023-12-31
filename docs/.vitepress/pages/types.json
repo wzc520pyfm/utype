@@ -25,6 +25,10 @@
       {
         "link": "/readonly-x",
         "text": "ReadonlyX"
+      },
+      {
+        "link": "/deep-readonly-x",
+        "text": "DeepReadonlyX"
       }
     ]
   },
