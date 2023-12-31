@@ -1,6 +1,6 @@
 {
   "name": "@utype-ts/shared",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "C of typescript utility types that extends the official utility types",
   "scripts": {
     "ts-check": "tsc"
