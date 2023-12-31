@@ -1,3 +1,7 @@
+---
+category: X Series
+alias: ReadonlyByKeys
+---
 
 # ReadonlyX
 

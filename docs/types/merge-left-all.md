@@ -1,3 +1,6 @@
+---
+category: Merge Object
+---
 
 # MergeLeftAll
 

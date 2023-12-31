@@ -1,3 +1,7 @@
+---
+category: Object Operation
+alias: DeepOptional
+---
 
 # DeepPartial
 

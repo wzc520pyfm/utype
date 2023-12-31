@@ -1,3 +1,7 @@
+---
+category: X Series
+alias: DeepReadonlyByKeys
+---
 
 # DeepReadonlyX
 
