@@ -56,5 +56,14 @@
         "text": "ExampleReact"
       }
     ]
+  },
+  "vue": {
+    "text": "Vue",
+    "items": [
+      {
+        "link": "/example-vue",
+        "text": "ExampleVue"
+      }
+    ]
   }
 }
