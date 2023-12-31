@@ -21,6 +21,10 @@
       {
         "link": "/mutable-x",
         "text": "MutableX"
+      },
+      {
+        "link": "/readonly-x",
+        "text": "ReadonlyX"
       }
     ]
   },
