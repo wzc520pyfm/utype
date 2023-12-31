@@ -17,6 +17,10 @@
       {
         "link": "/deep-partial",
         "text": "DeepPartial"
+      },
+      {
+        "link": "/mutable-x",
+        "text": "MutableX"
       }
     ]
   },
