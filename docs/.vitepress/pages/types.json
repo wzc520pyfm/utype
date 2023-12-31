@@ -37,6 +37,10 @@
       {
         "link": "/merge-left",
         "text": "MergeLeft"
+      },
+      {
+        "link": "/merge-right",
+        "text": "MergeRight"
       }
     ]
   },
