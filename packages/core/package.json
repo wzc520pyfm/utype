@@ -1,7 +1,7 @@
 {
   "name": "@utype/core",
   "version": "0.0.7",
-  "description": "C of typescript utility types that extends the official utility types",
+  "description": "Collection of typescript utility types that extends the official utility types",
   "scripts": {
     "ts-check": "tsc"
   },

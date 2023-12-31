@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.8",
   "private": true,
-  "description": "A collection of typescript utility types that extends the official utility types and also includes extensions to framework (Vue, React) types.",
+  "description": "Collection of typescript utility types that extends the official utility types and also includes extensions to framework (Vue, React) types.",
   "scripts": {
     "ts-check": "tsc",
     "docs:dev": "pnpm run -C docs dev"
