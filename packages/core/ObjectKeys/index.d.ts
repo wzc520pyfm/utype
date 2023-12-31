@@ -1,5 +1,5 @@
-import { OmitNever, NonUndefined } from "@utype-ts/core";
-import { ObjectKeyType } from "@utype-ts/shared";
+import { OmitNever, NonUndefined } from "@utype/core";
+import { ObjectKeyType } from "@utype/shared";
 
 /**
  * ObjectKeys

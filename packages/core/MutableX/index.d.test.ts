@@ -1,5 +1,5 @@
-import type { MutableX } from "@utype-ts/core";
-import { Equal, Expect } from "@utype-ts/shared";
+import type { MutableX } from "@utype/core";
+import { Equal, Expect } from "@utype/shared";
 
 type Case1 = {
   readonly name: string;

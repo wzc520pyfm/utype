@@ -1,5 +1,5 @@
-import { Duplicate } from "@utype-ts/shared";
-import { Mutable } from "@utype-ts/core";
+import { Duplicate } from "@utype/shared";
+import { Mutable } from "@utype/core";
 
 /**
  * MutableX

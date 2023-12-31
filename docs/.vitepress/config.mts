@@ -3,7 +3,7 @@ import { sidebar } from './configs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "UType TS",
+  title: "UType",
   description: "Collection of TS Utility Types",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {

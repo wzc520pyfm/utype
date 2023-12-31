@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "UType TS"
+  name: "UType"
   # text: "More TS Utility Types"
   text: "Collection of TS Utility Types"
   tagline: Collection of typescript utility types that extends the official utility types.

@@ -1,4 +1,4 @@
-import { OmitNever } from "@utype-ts/core";
+import { OmitNever } from "@utype/core";
 
 /**
  * OmitByType

@@ -1,5 +1,5 @@
-import type { SnakeCase } from "@utype-ts/core";
-import { Equal, Expect } from "@utype-ts/shared";
+import type { SnakeCase } from "@utype/core";
+import { Equal, Expect } from "@utype/shared";
 
 type cases = [
   Expect<Equal<SnakeCase<"hello">, "hello">>,

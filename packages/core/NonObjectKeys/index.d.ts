@@ -1,5 +1,5 @@
-import { Keys } from "@utype-ts/shared";
-import { ObjectKeys } from "@utype-ts/core";
+import { Keys } from "@utype/shared";
+import { ObjectKeys } from "@utype/core";
 
 /**
  * NonObjectKeys

@@ -1,5 +1,5 @@
-import { Duplicate, Keys } from "@utype-ts/shared";
-import { ReadonlyKeys, PartialKeys } from "@utype-ts/core";
+import { Duplicate, Keys } from "@utype/shared";
+import { ReadonlyKeys, PartialKeys } from "@utype/core";
 
 /**
  * Merge

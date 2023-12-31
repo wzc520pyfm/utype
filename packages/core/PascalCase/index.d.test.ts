@@ -1,5 +1,5 @@
-import type { PascalCase } from "@utype-ts/core";
-import { Equal, Expect } from "@utype-ts/shared";
+import type { PascalCase } from "@utype/core";
+import { Equal, Expect } from "@utype/shared";
 
 type cases = [
   Expect<Equal<PascalCase<"foobar">, "Foobar">>,

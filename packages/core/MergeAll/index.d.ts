@@ -1,4 +1,4 @@
-import { Merge, MergeLeft, MergeRight } from "@utype-ts/core";
+import { Merge, MergeLeft, MergeRight } from "@utype/core";
 
 /**
  * MergeAll

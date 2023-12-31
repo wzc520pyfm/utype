@@ -1,5 +1,5 @@
 {
-  "name": "@utype-ts/shared",
+  "name": "@utype/shared",
   "version": "0.0.7",
   "description": "C of typescript utility types that extends the official utility types",
   "scripts": {

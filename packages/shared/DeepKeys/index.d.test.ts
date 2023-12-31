@@ -1,4 +1,4 @@
-import { DeepKeys, Expect, Equal } from "@utype-ts/shared";
+import { DeepKeys, Expect, Equal } from "@utype/shared";
 
 type Case1 = {
   name: string;

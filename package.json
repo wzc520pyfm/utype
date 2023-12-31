@@ -1,6 +1,8 @@
 {
-  "name": "utype-ts",
-  "version": "0.0.6",
+  "name": "@utype/monorepo",
+  "type": "module",
+  "version": "0.0.8",
+  "private": true,
   "description": "A collection of typescript utility types that extends the official utility types and also includes extensions to framework (Vue, React) types.",
   "scripts": {
     "ts-check": "tsc",
@@ -14,14 +16,6 @@
   ],
   "author": "wzc520pyfm",
   "license": "MIT",
-  "exports": {
-    ".": {
-      "types": "./index.d.ts"
-    },
-    "./*": "./*"
-  },
-  "main": "",
-  "types": "./index.d.ts",
   "devDependencies": {
     "typescript": "^5.3.3"
   }

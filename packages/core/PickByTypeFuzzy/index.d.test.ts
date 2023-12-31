@@ -1,5 +1,5 @@
-import type { PickByTypeFuzzy } from "@utype-ts/core";
-import { Equal, Expect } from "@utype-ts/shared";
+import type { PickByTypeFuzzy } from "@utype/core";
+import { Equal, Expect } from "@utype/shared";
 
 type Case1 = {
   foo: number;

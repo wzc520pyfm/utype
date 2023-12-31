@@ -1,4 +1,4 @@
-import { Keys, Equal, Expect } from "@utype-ts/shared";
+import { Keys, Equal, Expect } from "@utype/shared";
 
 type Case1 = {
   readonly name: string;

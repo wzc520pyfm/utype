@@ -1,5 +1,5 @@
-import type { CamelCase } from "@utype-ts/core";
-import { Equal, Expect } from "@utype-ts/shared";
+import type { CamelCase } from "@utype/core";
+import { Equal, Expect } from "@utype/shared";
 
 type cases = [
   Expect<Equal<CamelCase<"foobar">, "foobar">>,

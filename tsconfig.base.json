@@ -7,14 +7,14 @@
     "strict": true,
     "moduleResolution": "node",
     "paths": {
-      "@utype-ts/core": ["./packages/core/index.d.ts"],
-      "@utype-ts/core/*": ["./packages/core/*"],
-      "@utype-ts/vue": ["./packages/vue/index.d.ts"],
-      "@utype-ts/vue/*": ["./packages/vue/*"],
-      "@utype-ts/react": ["./packages/react/index.d.ts"],
-      "@utype-ts/react/*": ["./packages/react/*"],
-      "@utype-ts/shared": ["./packages/shared/index.d.ts"],
-      "@utype-ts/shared/*": ["./packages/shared/*"]
+      "@utype/core": ["./packages/core/index.d.ts"],
+      "@utype/core/*": ["./packages/core/*"],
+      "@utype/vue": ["./packages/vue/index.d.ts"],
+      "@utype/vue/*": ["./packages/vue/*"],
+      "@utype/react": ["./packages/react/index.d.ts"],
+      "@utype/react/*": ["./packages/react/*"],
+      "@utype/shared": ["./packages/shared/index.d.ts"],
+      "@utype/shared/*": ["./packages/shared/*"]
     },
     "noUnusedLocals": false,
     "noUnusedParameters": true,
@@ -27,9 +27,6 @@
     "noEmit": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": [
-    "*.ts",
-    "packages"
-  ],
+  "include": ["*.ts", "packages"],
   "exclude": ["node_modules", "dist"]
 }

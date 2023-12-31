@@ -1,5 +1,5 @@
-import { Equal } from "@utype-ts/shared";
-import { OmitNever, NonUndefined } from "@utype-ts/core";
+import { Equal } from "@utype/shared";
+import { OmitNever, NonUndefined } from "@utype/core";
 
 /**
  * PartialKeys

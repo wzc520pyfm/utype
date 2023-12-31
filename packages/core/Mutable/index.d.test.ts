@@ -1,5 +1,5 @@
-import type { Mutable } from "@utype-ts/core";
-import { Equal, Expect } from "@utype-ts/shared";
+import type { Mutable } from "@utype/core";
+import { Equal, Expect } from "@utype/shared";
 
 type Case = {
   name: string;

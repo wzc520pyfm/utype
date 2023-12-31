@@ -1,4 +1,4 @@
-export * from '@utype-ts/core'
-export * from '@utype-ts/react'
-// export * from '@utype-ts/vue'
-export * from '@utype-ts/shared'
+export * from "@utype/core";
+export * from "@utype/react";
+// export * from '@utype/vue'
+export * from "@utype/shared";

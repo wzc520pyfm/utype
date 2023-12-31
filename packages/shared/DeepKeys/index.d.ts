@@ -1,6 +1,6 @@
 import { NonUndefined } from "./../../core/NonUndefined/index.d";
-import { OmitNever } from "@utype-ts/core";
-import { Keys } from "@utype-ts/shared";
+import { OmitNever } from "@utype/core";
+import { Keys } from "@utype/shared";
 
 /**
  * DeepKeys

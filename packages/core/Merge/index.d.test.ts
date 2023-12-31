@@ -1,5 +1,5 @@
-import type { Merge, MergeLeft, MergeRight } from "@utype-ts/core";
-import { Equal, Expect } from "@utype-ts/shared";
+import type { Merge, MergeLeft, MergeRight } from "@utype/core";
+import { Equal, Expect } from "@utype/shared";
 
 type Case1Foo = {
   name: string;

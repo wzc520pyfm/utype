@@ -1,5 +1,5 @@
-import { DeepKeys, Keys, OnlyObject } from "@utype-ts/shared";
-import { MergeRight } from "@utype-ts/core";
+import { DeepKeys, Keys, OnlyObject } from "@utype/shared";
+import { MergeRight } from "@utype/core";
 
 /**
  * DeepReadonlyX

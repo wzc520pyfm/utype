@@ -1,4 +1,4 @@
-import { Duplicate } from "@utype-ts/shared";
+import { Duplicate } from "@utype/shared";
 
 /**
  * ReadonlyX

@@ -1,5 +1,5 @@
-import type { MergeAll, MergeLeftAll, MergeRightAll } from "@utype-ts/core";
-import { Equal, Expect } from "@utype-ts/shared";
+import type { MergeAll, MergeLeftAll, MergeRightAll } from "@utype/core";
+import { Equal, Expect } from "@utype/shared";
 
 type Case1Foo = { a: 1; b: 2 };
 type Case1Bar = { a: 2 };

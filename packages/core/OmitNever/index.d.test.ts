@@ -1,5 +1,5 @@
-import type { OmitNever } from "@utype-ts/core";
-import { Equal, Expect } from "@utype-ts/shared";
+import type { OmitNever } from "@utype/core";
+import { Equal, Expect } from "@utype/shared";
 
 type Case1 = {
   name: string;

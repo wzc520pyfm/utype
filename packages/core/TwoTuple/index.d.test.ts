@@ -1,5 +1,5 @@
-import type { TwoTuple } from "@utype-ts/core";
-import { Equal, Expect } from "@utype-ts/shared";
+import type { TwoTuple } from "@utype/core";
+import { Equal, Expect } from "@utype/shared";
 
 type Case = [string, string];
 type TwoTupleCase = TwoTuple<string>;

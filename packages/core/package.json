@@ -1,5 +1,5 @@
 {
-  "name": "@utype-ts/core",
+  "name": "@utype/core",
   "version": "0.0.7",
   "description": "C of typescript utility types that extends the official utility types",
   "scripts": {
@@ -22,6 +22,6 @@
   "main": "",
   "types": "./index.d.ts",
   "dependencies": {
-    "@utype-ts/shared": "0.0.7"
+    "@utype/shared": "0.0.7"
   }
 }

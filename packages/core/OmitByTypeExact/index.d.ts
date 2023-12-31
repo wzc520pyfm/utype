@@ -1,5 +1,5 @@
-import { OmitNever } from "@utype-ts/core";
-import { Equal } from "@utype-ts/shared";
+import { OmitNever } from "@utype/core";
+import { Equal } from "@utype/shared";
 
 /**
  * OmitByTypeExact
