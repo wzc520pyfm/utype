@@ -1,11 +1,9 @@
 {
   "name": "@utype-ts/shared",
   "version": "0.0.5",
-  "description": "",
-  "types": "index.d.ts",
-  "main": "",
+  "description": "C of typescript utility types that extends the official utility types",
   "scripts": {
-    "test": "tsc"
+    "ts-check": "tsc"
   },
   "keywords": [
     "utility",
@@ -14,5 +12,13 @@
     "utility types"
   ],
   "author": "wzc520pyfm",
-  "license": "MIT"
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts"
+    },
+    "./*": "./*"
+  },
+  "types": "./index.d.ts",
+  "main": ""
 }
