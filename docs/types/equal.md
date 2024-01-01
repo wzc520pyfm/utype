@@ -1,5 +1,5 @@
 
-# CamelCase
+# Equal
 
 Compare whether two types are equal.
 

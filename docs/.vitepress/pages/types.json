@@ -150,6 +150,10 @@
       {
         "link": "/equal",
         "text": "Equal"
+      },
+      {
+        "link": "/expect",
+        "text": "Expect"
       }
     ]
   },

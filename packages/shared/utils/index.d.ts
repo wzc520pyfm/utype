@@ -1,5 +1,16 @@
 export * from './helper'
 
+/**
+ * Expect
+ * @description Only accept the 'true' type, typically used to determine if the result returned by 'Equal' is true.
+ * @example
+ * // ts-expect-error
+ * type Case = Expect<false>
+ * // ts-expect-error
+ * type Case = Expect<Equal<string, number>>
+ * // Expect
+ * type Case = Expect<Equal<string, string>>
+ */
 export type Expect<T extends true> = T
 
 /**
