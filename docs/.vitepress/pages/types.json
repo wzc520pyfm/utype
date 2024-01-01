@@ -133,6 +133,10 @@
       {
         "link": "/snake-case",
         "text": "SnakeCase"
+      },
+      {
+        "link": "/camel-case",
+        "text": "CamelCase"
       }
     ]
   },
