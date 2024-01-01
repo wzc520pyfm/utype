@@ -5,6 +5,8 @@ alias: DeepReadonlyByKeys
 
 # DeepReadonlyX
 
+<TypeInfo category="X Series" :alias="['DeepReadonlyByKeys']" />
+
 Make specified properties in the object readonly, regardless of how deeply nested they are.
 
 ## Usage

@@ -4,6 +4,8 @@ category: Merge Object
 
 # MergeLeft
 
+<TypeInfo category="Merge Object" />
+
 Merge two types into a new type. Keys of the first type overrides keys of the second type.
 
 ## Usage

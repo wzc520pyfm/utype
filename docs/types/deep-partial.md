@@ -5,6 +5,8 @@ alias: DeepOptional
 
 # DeepPartial
 
+<TypeInfo category="Object Operation" :alias="['DeepOptional']" />
+
 Make every parameter of an object - and its sub-objects recursively - partial.
 
 ## Usage

@@ -5,6 +5,8 @@ alias: ReadonlyByKeys
 
 # ReadonlyX
 
+<TypeInfo category="X Series" :alias="['ReadonlyByKeys']" />
+
 Constructs a type by setting the properties specified by `K`(string literal or union of string literals) to readonly from `T`.
 
 ## Usage

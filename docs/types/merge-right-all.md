@@ -4,6 +4,8 @@ category: Merge Object
 
 # MergeRightAll
 
+<TypeInfo category="Merge Object" />
+
 Merge variadic number of types into a new type. If the keys overlap, later keys override earlier keys.
 
 ## Usage

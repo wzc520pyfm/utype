@@ -4,6 +4,8 @@ category: Object Operation
 
 # DeepReadonly
 
+<TypeInfo category="Object Operation" />
+
 Make every parameter of an object - and its sub-objects recursively - readonly.
 
 ## Usage

@@ -5,6 +5,8 @@ alias: MutableByKeys
 
 # MutableX
 
+<TypeInfo category="X Series" :alias="['MutableByKeys']" />
+
 Constructs a type by setting the properties specified by `K`(string literal or union of string literals) to mutable from `T`.
 
 ## Usage
