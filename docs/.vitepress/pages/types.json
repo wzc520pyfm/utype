@@ -125,6 +125,10 @@
       {
         "link": "/omit-by-type-exact",
         "text": "OmitByTypeExact"
+      },
+      {
+        "link": "/kebab-case",
+        "text": "KebabCase"
       }
     ]
   },
