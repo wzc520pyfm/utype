@@ -77,6 +77,10 @@
       {
         "link": "/mutable-keys",
         "text": "MutableKeys"
+      },
+      {
+        "link": "/required-keys",
+        "text": "RequiredKeys"
       }
     ]
   },
