@@ -65,6 +65,10 @@
       {
         "link": "/non-undefined",
         "text": "NonUndefined"
+      },
+      {
+        "link": "/omit-never",
+        "text": "OmitNever"
       }
     ]
   },
