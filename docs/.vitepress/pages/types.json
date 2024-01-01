@@ -109,6 +109,10 @@
       {
         "link": "/pick-by-type-fuzzy",
         "text": "PickByTypeFuzzy"
+      },
+      {
+        "link": "/pick-by-type-exact",
+        "text": "PickByTypeExact"
       }
     ]
   },
