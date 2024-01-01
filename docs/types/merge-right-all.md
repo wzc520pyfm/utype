@@ -17,6 +17,6 @@ type Foo = { a: 1; b: 2 }
 type Bar = { a: 2 }
 type Baz = { c: 3 }
 
-// Expect: { a: 2; b: 2; c: 3 }
+// Expect: { a: 2; b: 2; c: 3 } // [!code highlight]
 type MergeRightAllResult = MergeRightAll<[Foo, Bar, Baz]>
 ```

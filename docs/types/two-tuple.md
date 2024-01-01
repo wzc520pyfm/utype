@@ -13,6 +13,6 @@ A Tuple consisting of two identical types.
 ```ts
 import type { TwoTuple } from '@utype/core'
 
-// Expect: [string, string]
+// Expect: [string, string] // [!code highlight]
 type TestType = TwoTuple<string>
 ```

@@ -10,7 +10,7 @@ Make every parameter of an object - and its sub-objects recursively - readonly.
 
 ## Usage
 
-```ts
+```ts{11-17}
 import type { DeepReadonly } from '@utype/core'
 
 type Prop = {

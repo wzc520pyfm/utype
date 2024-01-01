@@ -10,7 +10,7 @@ Merge two types into a new type. Keys of the second type overrides keys of the f
 
 ## Usage
 
-```ts
+```ts{12-16}
 import type { MergeRight } from '@utype/core'
 
 type Foo = {

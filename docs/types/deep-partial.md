@@ -11,7 +11,7 @@ Make every parameter of an object - and its sub-objects recursively - partial.
 
 ## Usage
 
-```ts
+```ts{11-17}
 import type { DeepPartial } from '@utype/core'
 
 type Prop = {

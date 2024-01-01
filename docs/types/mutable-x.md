@@ -20,6 +20,6 @@ type Prop = {
   readonly visible: boolean;
 }
 
-// Expect: { name: string; age: number; readonly visible: boolean; }
+// Expect: { name: string; age: number; readonly visible: boolean; } // [!code highlight]
 type MutableXProp = MutableX<Prop, 'name' | 'age'>
 ```

@@ -14,4 +14,5 @@
     #edd53260
   );
   --vp-home-hero-image-filter: blur(72px);
+  --vp-code-line-highlight-color: var(--vp-c-green-soft);
 }

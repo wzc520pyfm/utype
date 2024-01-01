@@ -20,6 +20,6 @@ type Prop = {
   visible: boolean;
 }
 
-// Expect: { readonly name: string; readonly age: number; visible: boolean; }
+// Expect: { readonly name: string; readonly age: number; visible: boolean; } // [!code highlight]
 type ReadonlyXProp = ReadonlyX<Prop, 'name' | 'age'>
 ```

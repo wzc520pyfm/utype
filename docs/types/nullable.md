@@ -13,6 +13,6 @@ Maybe null or undefined from set T.
 ```ts
 import type { Nullable } from '@utype/core'
 
-// Expect: string | null | undefined
+// Expect: string | null | undefined // [!code highlight]
 type Ref = Nullable<string>
 ```

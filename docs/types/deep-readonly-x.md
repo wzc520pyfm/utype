@@ -11,7 +11,7 @@ Make specified properties in the object readonly, regardless of how deeply neste
 
 ## Usage
 
-```ts
+```ts{10-16}
 import type { DeepReadonlyX } from '@utype/core'
 
 type Prop = {
