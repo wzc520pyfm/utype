@@ -53,6 +53,10 @@
       {
         "link": "/merge-right-all",
         "text": "MergeRightAll"
+      },
+      {
+        "link": "/two-tuple",
+        "text": "TwoTuple"
       }
     ]
   },
