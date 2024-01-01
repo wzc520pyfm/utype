@@ -113,6 +113,10 @@
       {
         "link": "/pick-by-type-exact",
         "text": "PickByTypeExact"
+      },
+      {
+        "link": "/omit-by-type",
+        "text": "OmitByType"
       }
     ]
   },
