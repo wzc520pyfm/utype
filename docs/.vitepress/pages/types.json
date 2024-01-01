@@ -129,6 +129,10 @@
       {
         "link": "/kebab-case",
         "text": "KebabCase"
+      },
+      {
+        "link": "/snake-case",
+        "text": "SnakeCase"
       }
     ]
   },
