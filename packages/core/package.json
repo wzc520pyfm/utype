@@ -1,6 +1,6 @@
 {
   "name": "@utype/core",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Collection of typescript utility types that extends the official utility types",
   "scripts": {
     "ts-check": "tsc"
@@ -22,6 +22,6 @@
   "main": "",
   "types": "./index.d.ts",
   "dependencies": {
-    "@utype/shared": "0.0.7"
+    "@utype/shared": "0.1.0"
   }
 }
