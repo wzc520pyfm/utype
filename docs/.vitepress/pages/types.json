@@ -85,6 +85,10 @@
       {
         "link": "/partial-keys",
         "text": "PartialKeys"
+      },
+      {
+        "link": "/function-keys",
+        "text": "FunctionKeys"
       }
     ]
   },
