@@ -117,6 +117,10 @@
       {
         "link": "/omit-by-type",
         "text": "OmitByType"
+      },
+      {
+        "link": "/omit-by-type-fuzzy",
+        "text": "OmitByTypeFuzzy"
       }
     ]
   },
