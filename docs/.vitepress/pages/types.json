@@ -89,6 +89,10 @@
       {
         "link": "/function-keys",
         "text": "FunctionKeys"
+      },
+      {
+        "link": "/non-function-keys",
+        "text": "NonFunctionKeys"
       }
     ]
   },
