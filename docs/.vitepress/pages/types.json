@@ -81,6 +81,10 @@
       {
         "link": "/required-keys",
         "text": "RequiredKeys"
+      },
+      {
+        "link": "/partial-keys",
+        "text": "PartialKeys"
       }
     ]
   },
