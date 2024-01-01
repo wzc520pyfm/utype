@@ -137,6 +137,10 @@
       {
         "link": "/camel-case",
         "text": "CamelCase"
+      },
+      {
+        "link": "/pascal-case",
+        "text": "PascalCase"
       }
     ]
   },
