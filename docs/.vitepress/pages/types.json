@@ -73,6 +73,10 @@
       {
         "link": "/readonly-keys",
         "text": "ReadonlyKeys"
+      },
+      {
+        "link": "/mutable-keys",
+        "text": "MutableKeys"
       }
     ]
   },
