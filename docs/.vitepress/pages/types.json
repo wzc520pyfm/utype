@@ -121,6 +121,10 @@
       {
         "link": "/omit-by-type-fuzzy",
         "text": "OmitByTypeFuzzy"
+      },
+      {
+        "link": "/omit-by-type-exact",
+        "text": "OmitByTypeExact"
       }
     ]
   },
