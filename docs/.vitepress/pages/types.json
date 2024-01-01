@@ -69,6 +69,10 @@
       {
         "link": "/omit-never",
         "text": "OmitNever"
+      },
+      {
+        "link": "/readonly-keys",
+        "text": "ReadonlyKeys"
       }
     ]
   },
