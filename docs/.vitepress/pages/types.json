@@ -101,6 +101,10 @@
       {
         "link": "/non-object-keys",
         "text": "NonObjectKeys"
+      },
+      {
+        "link": "/pick-by-type",
+        "text": "PickByType"
       }
     ]
   },
