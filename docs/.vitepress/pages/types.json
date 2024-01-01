@@ -154,6 +154,10 @@
       {
         "link": "/expect",
         "text": "Expect"
+      },
+      {
+        "link": "/deep-keys",
+        "text": "DeepKeys"
       }
     ]
   },
