@@ -144,6 +144,15 @@
       }
     ]
   },
+  "shared": {
+    "text": "Shared",
+    "items": [
+      {
+        "link": "/equal",
+        "text": "Equal"
+      }
+    ]
+  },
   "react": {
     "text": "React",
     "items": [
