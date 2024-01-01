@@ -93,6 +93,10 @@
       {
         "link": "/non-function-keys",
         "text": "NonFunctionKeys"
+      },
+      {
+        "link": "/object-keys",
+        "text": "ObjectKeys"
       }
     ]
   },
