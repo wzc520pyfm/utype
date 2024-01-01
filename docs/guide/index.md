@@ -16,7 +16,7 @@ import type { Mutable } from '@utype/core'
 
 type Props = { readonly name: string; }
 
-// Expect: { name: string }
+// Expect: { name: string } // [!code highlight]
 type MutableProp = Mutable<Prop>
 ```
 
