@@ -15,6 +15,7 @@ export * from './Nullable'
 export * from './NonUndefined'
 export * from './OmitNever'
 
+export * from "./DeepKeys";
 export * from './ReadonlyKeys'
 export * from './MutableKeys'
 export * from './RequiredKeys'

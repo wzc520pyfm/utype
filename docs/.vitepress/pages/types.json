@@ -71,6 +71,10 @@
         "text": "OmitNever"
       },
       {
+        "link": "/deep-keys",
+        "text": "DeepKeys"
+      },
+      {
         "link": "/readonly-keys",
         "text": "ReadonlyKeys"
       },
@@ -154,10 +158,6 @@
       {
         "link": "/expect",
         "text": "Expect"
-      },
-      {
-        "link": "/deep-keys",
-        "text": "DeepKeys"
       }
     ]
   },
