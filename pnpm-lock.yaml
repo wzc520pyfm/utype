@@ -43,7 +43,7 @@ importers:
   packages/core:
     dependencies:
       '@utype/shared':
-        specifier: 0.1.1
+        specifier: 0.1.2
         version: link:../shared
 
   packages/react:
