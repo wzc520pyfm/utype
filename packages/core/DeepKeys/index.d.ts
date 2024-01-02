@@ -1,5 +1,4 @@
-import { NonUndefined } from "./../../core/NonUndefined/index.d";
-import { OmitNever } from "@utype/core";
+import { NonUndefined, OmitNever } from "@utype/core";
 import { Keys } from "@utype/shared";
 
 /**
