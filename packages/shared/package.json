@@ -1,6 +1,6 @@
 {
   "name": "@utype/shared",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Collection of typescript utility types that extends the official utility types",
   "author": "wzc520pyfm",
   "license": "MIT",
