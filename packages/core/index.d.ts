@@ -32,6 +32,7 @@ export * from './PickByTypeExact'
 export * from './OmitByType'
 export * from './OmitByTypeFuzzy'
 export * from './OmitByTypeExact'
+export * from './PickByRequired'
 
 export * from './KebabCase'
 export * from './SnakeCase'
