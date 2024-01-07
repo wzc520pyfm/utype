@@ -20,55 +20,55 @@ npm i @utype/core
 
 ### 🚀 Object Operation
 
-<a href="./docs/types/mutable.md" style="text-decoration: none;color: white;"><code style="background: #006FEE;">Mutable</code></a>
-<a href="./docs/types/deep-mutable.md" style="text-decoration: none;color: white;"><code style="background: #006FEE;">DeepMutable</code></a>
-<a href="./docs/types/deep-readonly.md" style="text-decoration: none;color: white;"><code style="background: #006FEE;">DeepReadonly</code></a>
-<a href="./docs/types/deep-partial.md" style="text-decoration: none;color: white;"><code style="background: #006FEE;">DeepPartial</code></a>
+<a href="./docs/types/mutable.md" target="_blank" ><img src="https://img.shields.io/badge/Mutable-006FEE" alt="Mutable" /></a>
+<a href="./docs/types/deep-mutable.md" target="_blank" ><img src="https://img.shields.io/badge/DeepMutable-006FEE" alt="DeepMutable" /></a>
+<a href="./docs/types/deep-readonly.md" target="_blank" ><img src="https://img.shields.io/badge/DeepReadonly-006FEE" alt="DeepReadonly" /></a>
+<a href="./docs/types/deep-partial.md" target="_blank" ><img src="https://img.shields.io/badge/DeepPartial-006FEE" alt="DeepPartial" /></a>
 
 ### 🚀 X Series
 
-<a href="./docs/types/mutable-x.md" style="text-decoration: none;color: white;"><code style="background: #f31260;">MutableX</code></a>
-<a href="./docs/types/readonly-x.md" style="text-decoration: none;color: white;"><code style="background: #f31260;">ReadonlyX</code></a>
-<a href="./docs/types/deep-readonly-x.md" style="text-decoration: none;color: white;"><code style="background: #f31260;">DeepReadonlyX</code></a>
+<a href="./docs/types/mutable-x.md" target="_blank" ><img src="https://img.shields.io/badge/MutableX-f31260" alt="MutableX" /></a>
+<a href="./docs/types/readonly-x.md" target="_blank" ><img src="https://img.shields.io/badge/ReadonlyX-f31260" alt="ReadonlyX" /></a>
+<a href="./docs/types/deep-readonly-x.md" target="_blank" ><img src="https://img.shields.io/badge/DeepReadonlyX-f31260" alt="DeepReadonlyX" /></a>
 
 ### 🚀 Merge Object
 
-<a href="./docs/types/merge.md" style="text-decoration: none;color: white;"><code style="background: #f5a524;">Merge</code></a>
-<a href="./docs/types/merge-all.md" style="text-decoration: none;color: white;"><code style="background: #f5a524;">MergeAll</code></a>
+<a href="./docs/types/merge.md" target="_blank" ><img src="https://img.shields.io/badge/Merge-f5a524" alt="Merge" /></a>
+<a href="./docs/types/merge-all.md" target="_blank" ><img src="https://img.shields.io/badge/MergeAll-f5a524" alt="MergeAll" /></a>
 
 ### 🚀 Basic Operation
 
-<a href="./docs/types/two-tuple.md" style="text-decoration: none;color: white;"><code style="background: #006FEE;">TwoTuple</code></a>
-<a href="./docs/types/nullable.md" style="text-decoration: none;color: white;"><code style="background: #006FEE;">Nullable</code></a>
-<a href="./docs/types/non-undefined.md" style="text-decoration: none;color: white;"><code style="background: #006FEE;">NonUndefined</code></a>
-<a href="./docs/types/omit-never.md" style="text-decoration: none;color: white;"><code style="background: #006FEE;">OmitNever</code></a>
+<a href="./docs/types/two-tuple.md" target="_blank" ><img src="https://img.shields.io/badge/TwoTuple-006FEE" alt="TwoTuple" /></a>
+<a href="./docs/types/nullable.md" target="_blank" ><img src="https://img.shields.io/badge/Nullable-006FEE" alt="Nullable" /></a>
+<a href="./docs/types/non-undefined.md" target="_blank" ><img src="https://img.shields.io/badge/NonUndefined-006FEE" alt="NonUndefined" /></a>
+<a href="./docs/types/omit-never.md" target="_blank" ><img src="https://img.shields.io/badge/OmitNever-006FEE" alt="OmitNever" /></a>
 
 ### 🚀 Get Object Keys
 
-<a href="./docs/types/readonly-keys.md" style="text-decoration: none;color: white;"><code style="background: #7828c8;">ReadonlyKeys</code></a>
-<a href="./docs/types/mutable-keys.md" style="text-decoration: none;color: white;"><code style="background: #7828c8;">MutableKeys</code></a>
-<a href="./docs/types/required-keys.md" style="text-decoration: none;color: white;"><code style="background: #7828c8;">RequiredKeys</code></a>
-<a href="./docs/types/partial-keys.md" style="text-decoration: none;color: white;"><code style="background: #7828c8;">PartialKeys</code></a>
-<a href="./docs/types/function-keys.md" style="text-decoration: none;color: white;"><code style="background: #7828c8;">FunctionKeys</code></a>
-<a href="./docs/types/non-function-keys.md" style="text-decoration: none;color: white;"><code style="background: #7828c8;">NonFunctionKeys</code></a>
-<a href="./docs/types/object-keys.md" style="text-decoration: none;color: white;"><code style="background: #7828c8;">ObjectKeys</code></a>
-<a href="./docs/types/non-object-keys.md" style="text-decoration: none;color: white;"><code style="background: #7828c8;">NonObjectKeys</code></a>
+<a href="./docs/types/readonly-keys.md" target="_blank" ><img src="https://img.shields.io/badge/ReadonlyKeys-7828c8" alt="ReadonlyKeys" /></a>
+<a href="./docs/types/mutable-keys.md" target="_blank" ><img src="https://img.shields.io/badge/MutableKeys-7828c8" alt="MutableKeys" /></a>
+<a href="./docs/types/required-keys.md" target="_blank" ><img src="https://img.shields.io/badge/RequiredKeys-7828c8" alt="RequiredKeys" /></a>
+<a href="./docs/types/partial-keys.md" target="_blank" ><img src="https://img.shields.io/badge/PartialKeys-7828c8" alt="PartialKeys" /></a>
+<a href="./docs/types/function-keys.md" target="_blank" ><img src="https://img.shields.io/badge/FunctionKeys-7828c8" alt="FunctionKeys" /></a>
+<a href="./docs/types/non-function-keys.md" target="_blank" ><img src="https://img.shields.io/badge/NonFunctionKeys-7828c8" alt="NonFunctionKeys" /></a>
+<a href="./docs/types/object-keys.md" target="_blank" ><img src="https://img.shields.io/badge/ObjectKeys-7828c8" alt="ObjectKeys" /></a>
+<a href="./docs/types/non-object-keys.md" target="_blank" ><img src="https://img.shields.io/badge/NonObjectKeys-7828c8" alt="NonObjectKeys" /></a>
 
 ### 🚀 Generate Object
 
-<a href="./docs/types/pick-by-type.md" style="text-decoration: none;color: white;"><code style="background: #f31260;">PickByType</code></a>
-<a href="./docs/types/pick-by-type-fuzzy.md" style="text-decoration: none;color: white;"><code style="background: #f31260;">PickByTypeFuzzy</code></a>
-<a href="./docs/types/pick-by-type-exact.md" style="text-decoration: none;color: white;"><code style="background: #f31260;">PickByTypeExact</code></a>
-<a href="./docs/types/omit-by-type.md" style="text-decoration: none;color: white;"><code style="background: #f31260;">OmitByType</code></a>
-<a href="./docs/types/omit-by-type-fuzzy.md" style="text-decoration: none;color: white;"><code style="background: #f31260;">OmitByTypeFuzzy</code></a>
-<a href="./docs/types/omit-by-type-exact.md" style="text-decoration: none;color: white;"><code style="background: #f31260;">OmitByTypeExact</code></a>
+<a href="./docs/types/pick-by-type.md" target="_blank" ><img src="https://img.shields.io/badge/PickByType-f31260" alt="PickByType" /></a>
+<a href="./docs/types/pick-by-type-fuzzy.md" target="_blank" ><img src="https://img.shields.io/badge/PickByTypeFuzzy-f31260" alt="PickByTypeFuzzy" /></a>
+<a href="./docs/types/pick-by-type-exact.md" target="_blank" ><img src="https://img.shields.io/badge/PickByTypeExact-f31260" alt="PickByTypeExact" /></a>
+<a href="./docs/types/omit-by-type.md" target="_blank" ><img src="https://img.shields.io/badge/OmitByType-f31260" alt="OmitByType" /></a>
+<a href="./docs/types/omit-by-type-fuzzy.md" target="_blank" ><img src="https://img.shields.io/badge/OmitByTypeFuzzy-f31260" alt="OmitByTypeFuzzy" /></a>
+<a href="./docs/types/omit-by-type-exact.md" target="_blank" ><img src="https://img.shields.io/badge/OmitByTypeExact-f31260" alt="OmitByTypeExact" /></a>
 
 ### 🚀 String Operation
 
-<a href="./docs/types/kebab-case.md" style="text-decoration: none;color: white;"><code style="background: #17c964;">KebabCase</code></a>
-<a href="./docs/types/snake-case.md" style="text-decoration: none;color: white;"><code style="background: #17c964;">SnakeCase</code></a>
-<a href="./docs/types/camel-case.md" style="text-decoration: none;color: white;"><code style="background: #17c964;">CamelCase</code></a>
-<a href="./docs/types/pascal-case.md" style="text-decoration: none;color: white;"><code style="background: #17c964;">PascalCase</code></a>
+<a href="./docs/types/kebab-case.md" target="_blank" ><img src="https://img.shields.io/badge/KebabCase-17c964" alt="KebabCase" /></a>
+<a href="./docs/types/snake-case.md" target="_blank" ><img src="https://img.shields.io/badge/SnakeCase-17c964" alt="SnakeCase" /></a>
+<a href="./docs/types/camel-case.md" target="_blank" ><img src="https://img.shields.io/badge/CamelCase-17c964" alt="CamelCase" /></a>
+<a href="./docs/types/pascal-case.md" target="_blank" ><img src="https://img.shields.io/badge/PascalCase-17c964" alt="PascalCase" /></a>
 
 ## 🥰 Contributors
 
