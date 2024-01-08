@@ -1,0 +1,13 @@
+{
+  "name": "@utype/example-basic",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "ts-check": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@utype/core": "latest",
+    "@utype/shared": "latest"
+  }
+}
