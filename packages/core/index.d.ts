@@ -5,6 +5,7 @@ export * from './DeepPartial'
 
 export * from './MutableX'
 export * from './ReadonlyX'
+export * from './PartialX'
 export * from './DeepReadonlyX'
 
 export * from './Merge'

@@ -27,6 +27,10 @@
         "text": "ReadonlyX"
       },
       {
+        "link": "/partial-x",
+        "text": "PartialX"
+      },
+      {
         "link": "/deep-readonly-x",
         "text": "DeepReadonlyX"
       },
