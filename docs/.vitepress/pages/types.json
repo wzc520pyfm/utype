@@ -31,6 +31,10 @@
         "text": "PartialX"
       },
       {
+        "link": "/required-x",
+        "text": "RequiredX"
+      },
+      {
         "link": "/deep-readonly-x",
         "text": "DeepReadonlyX"
       },
