@@ -135,6 +135,10 @@
         "text": "OmitByTypeExact"
       },
       {
+        "link": "/pick-by-required",
+        "text": "PickByRequired"
+      },
+      {
         "link": "/kebab-case",
         "text": "KebabCase"
       },
