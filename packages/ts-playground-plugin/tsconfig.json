@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "noEmit": true,
+    "typeRoots": ["src/types", "src/vendor"]
+  },
+  "include": ["*.ts", "src"]
+}

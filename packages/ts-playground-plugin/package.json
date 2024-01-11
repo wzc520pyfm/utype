@@ -1,0 +1,42 @@
+{
+  "name": "playground-utype-plugin",
+  "description": "The typescript playground plugin for utype.",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "keywords": [
+    "playground-plugin"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "cross-env NODE_ENV=development rollup -c -w",
+    "build": "cross-env NODE_ENV=production rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-image": "^2.0.4",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-replace": "^2.3.1",
+    "@rollup/plugin-typescript": "^3.0.0",
+    "chalk": "^3.0.0",
+    "concurrently": "^5.1.0",
+    "cross-env": "^7.0.1",
+    "get-chrome-tabs": "^1.0.0",
+    "monaco-editor": "^0.20.0",
+    "node-fetch": "^2.6.0",
+    "rollup": "^1.32.0",
+    "rollup-plugin-analyzer": "^3.2.2",
+    "rollup-plugin-execute": "^1.1.1",
+    "rollup-plugin-progress": "^1.1.1",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-svelte": "^5.1.1",
+    "rollup-plugin-terser": "^5.2.0",
+    "serve": "^11.3.0",
+    "svelte": "^3.19.1",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "tslib": "^1.11.1"
+  }
+}
