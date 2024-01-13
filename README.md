@@ -29,6 +29,7 @@ npm i @utype/core
 
 <a href="./docs/types/mutable-x.md" target="_blank" ><img src="https://img.shields.io/badge/MutableX-f31260" alt="MutableX" /></a>
 <a href="./docs/types/partial-x.md" target="_blank" ><img src="https://img.shields.io/badge/PartialX-f31260" alt="PartialX" /></a>
+<a href="./docs/types/required-x.md" target="_blank" ><img src="https://img.shields.io/badge/RequiredX-f31260" alt="RequiredX" /></a>
 <a href="./docs/types/readonly-x.md" target="_blank" ><img src="https://img.shields.io/badge/ReadonlyX-f31260" alt="ReadonlyX" /></a>
 <a href="./docs/types/deep-readonly-x.md" target="_blank" ><img src="https://img.shields.io/badge/DeepReadonlyX-f31260" alt="DeepReadonlyX" /></a>
 
