@@ -31,8 +31,11 @@ export default {
     typescript({ tsconfig: "tsconfig.json" }),
 
     svelte({
+      emitCss: false,
+      compilerOptions: {
+        dev: !isProd
+      }
       // enable run-time checks when not in production
-      dev: !isProd
     }),
     replace({
       "process.env.NODE_ENV": JSON.stringify(

@@ -74,9 +74,9 @@
     padding: 20px;
   }
 
-  h3 {
+  /* h3 {
     color: white;
-  }
+  } */
 
   input {
     height: 20px;
