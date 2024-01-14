@@ -1,4 +1,4 @@
-// @ts-ignore
+// @ts-nocheck
 import App from "./svelte/App.svelte";
 import { writable, readable, get } from "svelte/store";
 import { PluginUtils } from "./vendor/pluginUtils";
