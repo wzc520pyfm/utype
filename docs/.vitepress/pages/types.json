@@ -139,6 +139,10 @@
         "text": "OmitByTypeExact"
       },
       {
+        "link": "/subtract",
+        "text": "Subtract"
+      },
+      {
         "link": "/kebab-case",
         "text": "KebabCase"
       },
