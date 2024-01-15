@@ -79,6 +79,10 @@
         "text": "OmitNever"
       },
       {
+        "link": "/union-to-intersection",
+        "text": "UnionToIntersection"
+      },
+      {
         "link": "/deep-keys",
         "text": "DeepKeys"
       },
