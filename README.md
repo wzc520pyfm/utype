@@ -24,6 +24,7 @@ npm i @utype/core
 <a href="./docs/types/deep-mutable.md" target="_blank" ><img src="https://img.shields.io/badge/DeepMutable-006FEE" alt="DeepMutable" /></a>
 <a href="./docs/types/deep-readonly.md" target="_blank" ><img src="https://img.shields.io/badge/DeepReadonly-006FEE" alt="DeepReadonly" /></a>
 <a href="./docs/types/deep-partial.md" target="_blank" ><img src="https://img.shields.io/badge/DeepPartial-006FEE" alt="DeepPartial" /></a>
+<a href="./docs/types/deep-required.md" target="_blank" ><img src="https://img.shields.io/badge/DeepRequired-006FEE" alt="DeepRequired" /></a>
 
 ### 🚀 X Series
 

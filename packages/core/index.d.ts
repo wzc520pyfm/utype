@@ -2,6 +2,7 @@ export * from './Mutable'
 export * from './DeepMutable'
 export * from './DeepReadonly'
 export * from './DeepPartial'
+export * from './DeepRequired'
 
 export * from './MutableX'
 export * from './ReadonlyX'
