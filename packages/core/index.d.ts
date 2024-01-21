@@ -17,6 +17,7 @@ export * from './TwoTuple'
 export * from './Nullable'
 export * from './NonUndefined'
 export * from './OmitNever'
+export * from './UnionToIntersection'
 
 export * from "./DeepKeys";
 export * from './ReadonlyKeys'
