@@ -24,6 +24,7 @@ npm i @utype/core
 <a href="./docs/types/deep-mutable.md" target="_blank" ><img src="https://img.shields.io/badge/DeepMutable-006FEE" alt="DeepMutable" /></a>
 <a href="./docs/types/deep-readonly.md" target="_blank" ><img src="https://img.shields.io/badge/DeepReadonly-006FEE" alt="DeepReadonly" /></a>
 <a href="./docs/types/deep-partial.md" target="_blank" ><img src="https://img.shields.io/badge/DeepPartial-006FEE" alt="DeepPartial" /></a>
+<a href="./docs/types/deep-required.md" target="_blank" ><img src="https://img.shields.io/badge/DeepRequired-006FEE" alt="DeepRequired" /></a>
 
 ### 🚀 X Series
 
@@ -44,6 +45,7 @@ npm i @utype/core
 <a href="./docs/types/nullable.md" target="_blank" ><img src="https://img.shields.io/badge/Nullable-006FEE" alt="Nullable" /></a>
 <a href="./docs/types/non-undefined.md" target="_blank" ><img src="https://img.shields.io/badge/NonUndefined-006FEE" alt="NonUndefined" /></a>
 <a href="./docs/types/omit-never.md" target="_blank" ><img src="https://img.shields.io/badge/OmitNever-006FEE" alt="OmitNever" /></a>
+<a href="./docs/types/union-to-intersection.md" target="_blank" ><img src="https://img.shields.io/badge/UnionToIntersection-006FEE" alt="UnionToIntersection" /></a>
 
 ### 🚀 Get Object Keys
 
@@ -65,6 +67,8 @@ npm i @utype/core
 <a href="./docs/types/omit-by-type-fuzzy.md" target="_blank" ><img src="https://img.shields.io/badge/OmitByTypeFuzzy-f31260" alt="OmitByTypeFuzzy" /></a>
 <a href="./docs/types/omit-by-type-exact.md" target="_blank" ><img src="https://img.shields.io/badge/OmitByTypeExact-f31260" alt="OmitByTypeExact" /></a>
 <a href="./docs/types/diff.md" target="_blank" ><img src="https://img.shields.io/badge/Diff-f31260" alt="Diff" /></a>
+<a href="./docs/types/intersection.md" target="_blank" ><img src="https://img.shields.io/badge/Intersection-f31260" alt="Intersection" /></a>
+<a href="./docs/types/pick-by-required.md" target="_blank" ><img src="https://img.shields.io/badge/PickByRequired-f31260" alt="PickByRequired" /></a>
 
 ### 🚀 String Operation
 

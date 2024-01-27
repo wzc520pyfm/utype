@@ -19,6 +19,10 @@
         "text": "DeepPartial"
       },
       {
+        "link": "/deep-required",
+        "text": "DeepRequired"
+      },
+      {
         "link": "/mutable-x",
         "text": "MutableX"
       },
@@ -77,6 +81,10 @@
       {
         "link": "/omit-never",
         "text": "OmitNever"
+      },
+      {
+        "link": "/union-to-intersection",
+        "text": "UnionToIntersection"
       },
       {
         "link": "/deep-keys",
@@ -141,6 +149,14 @@
       {
         "link": "/diff",
         "text": "Diff"
+      },
+      {
+        "link": "/intersection",
+        "text": "Intersection"
+      },
+      {
+        "link": "/pick-by-required",
+        "text": "PickByRequired"
       },
       {
         "link": "/kebab-case",
