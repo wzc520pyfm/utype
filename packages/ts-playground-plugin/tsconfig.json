@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "noEmit": true,
+    "typeRoots": ["src/types", "src/vendor"],
+    "strict": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "types": ["svelte"]
+  },
+  "include": ["*.ts", "src"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}
