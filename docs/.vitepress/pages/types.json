@@ -169,6 +169,10 @@
       {
         "link": "/pascal-case",
         "text": "PascalCase"
+      },
+      {
+        "link": "/curried",
+        "text": "Curried"
       }
     ]
   },
@@ -182,6 +186,10 @@
       {
         "link": "/expect",
         "text": "Expect"
+      },
+      {
+        "link": "/tuple-head",
+        "text": "TupleHead"
       }
     ]
   },

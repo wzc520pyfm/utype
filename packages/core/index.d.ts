@@ -42,3 +42,5 @@ export * from './KebabCase'
 export * from './SnakeCase'
 export * from './CamelCase'
 export * from './PascalCase'
+
+export * from './Curried'

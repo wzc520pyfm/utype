@@ -76,6 +76,10 @@ npm i @utype/core
 <a href="./docs/types/camel-case.md" target="_blank" ><img src="https://img.shields.io/badge/CamelCase-17c964" alt="CamelCase" /></a>
 <a href="./docs/types/pascal-case.md" target="_blank" ><img src="https://img.shields.io/badge/PascalCase-17c964" alt="PascalCase" /></a>
 
+### 🚀 Function
+
+<a href="./docs/types/curried.md" target="_blank" ><img src="https://img.shields.io/badge/Curried-7828c8" alt="Curried" /></a>
+
 ## 🥰 Contributors
 
 <a href="https://github.com/wzc520pyfm/utype/graphs/contributors">
