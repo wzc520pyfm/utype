@@ -147,6 +147,10 @@
         "text": "OmitByTypeExact"
       },
       {
+        "link": "/intersection",
+        "text": "Intersection"
+      },
+      {
         "link": "/pick-by-required",
         "text": "PickByRequired"
       },

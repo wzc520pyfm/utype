@@ -66,6 +66,7 @@ npm i @utype/core
 <a href="./docs/types/omit-by-type.md" target="_blank" ><img src="https://img.shields.io/badge/OmitByType-f31260" alt="OmitByType" /></a>
 <a href="./docs/types/omit-by-type-fuzzy.md" target="_blank" ><img src="https://img.shields.io/badge/OmitByTypeFuzzy-f31260" alt="OmitByTypeFuzzy" /></a>
 <a href="./docs/types/omit-by-type-exact.md" target="_blank" ><img src="https://img.shields.io/badge/OmitByTypeExact-f31260" alt="OmitByTypeExact" /></a>
+<a href="./docs/types/intersection.md" target="_blank" ><img src="https://img.shields.io/badge/Intersection-f31260" alt="Intersection" /></a>
 <a href="./docs/types/pick-by-required.md" target="_blank" ><img src="https://img.shields.io/badge/PickByRequired-f31260" alt="PickByRequired" /></a>
 
 ### 🚀 String Operation
