@@ -147,6 +147,10 @@
         "text": "OmitByTypeExact"
       },
       {
+        "link": "/subtract",
+        "text": "Subtract"
+      },
+      {
         "link": "/intersection",
         "text": "Intersection"
       },

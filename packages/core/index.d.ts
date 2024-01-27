@@ -35,6 +35,7 @@ export * from './PickByTypeExact'
 export * from './OmitByType'
 export * from './OmitByTypeFuzzy'
 export * from './OmitByTypeExact'
+export * from './Subtract'
 export * from './Intersection'
 export * from './PickByRequired'
 
