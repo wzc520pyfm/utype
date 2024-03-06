@@ -11,15 +11,15 @@ Constructs a type by setting the properties specified by `K`(string literal or u
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { ReadonlyX } from '@utype/core'
 
-type Prop = {
+type Props = {
   name: string;
   age: number;
   visible: boolean;
 }
 
 // Expect: { readonly name: string; readonly age: number; visible: boolean; } // [!code highlight]
-type ReadonlyXProp = ReadonlyX<Prop, 'name' | 'age'>
+type ReadonlyXProps = ReadonlyX<Props, 'name' | 'age'>
 ```

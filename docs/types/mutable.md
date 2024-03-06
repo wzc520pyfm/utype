@@ -10,11 +10,11 @@ Like Readonly, but it will remove the readonly of the object property.
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { Mutable } from '@utype/core'
 
 type Props = { readonly name: string; }
 
 // Expect: { name: string } // [!code highlight]
-type MutableProp = Mutable<Prop>
+type MutableProps = Mutable<Props>
 ```

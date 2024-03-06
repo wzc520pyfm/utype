@@ -11,17 +11,17 @@ From T remove a set of properties by value matching exact ValueType.
 
 ## Usage
 
-```ts{9,11}
+```ts{9,11} twoslash
 import type { OmitByTypeExact } from '@utype/core'
 
-type Prop = {
+type Props = {
   foo: number;
   bar: number | undefined;
   faz: boolean;
 }
 
 // Expect: { bar: number | undefined; faz: boolean; }
-type OmitByTypeExactProp1 = OmitByTypeExact<Prop, number>
+type OmitByTypeExactProps1 = OmitByTypeExact<Props, number>
 // Expect: { foo: number; faz: boolean; }
-type OmitByTypeExactProp2 = OmitByTypeExact<Prop, number | undefined>
+type OmitByTypeExactProps2 = OmitByTypeExact<Props, number | undefined>
 ```

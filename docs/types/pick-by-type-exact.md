@@ -11,17 +11,17 @@ From T pick a set of properties by value matching exact ValueType.
 
 ## Usage
 
-```ts{9,11}
+```ts{9,11} twoslash
 import type { PickByTypeExact } from '@utype/core'
 
-type Prop = {
+type Props = {
   foo: number;
   bar: number | undefined;
   faz: string;
 }
 
 // Expect: { foo: number; }
-type PickByTypeExactProp1 = PickByTypeExact<Prop, number>
+type PickByTypeExactProps1 = PickByTypeExact<Props, number>
 // Expect: { bar: number | undefined; }
-type PickByTypeExactProp2 = PickByTypeExact<Prop, number | undefined>
+type PickByTypeExactProps2 = PickByTypeExact<Props, number | undefined>
 ```

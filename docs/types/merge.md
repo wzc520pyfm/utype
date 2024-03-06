@@ -10,7 +10,7 @@ Merge two types into a new type. If the keys overlap, its values should be merge
 
 ## Usage
 
-```ts{12-16}
+```ts{12-16} twoslash
 import type { Merge } from '@utype/core'
 
 type Foo = {

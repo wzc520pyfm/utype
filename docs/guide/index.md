@@ -11,13 +11,13 @@ npm i @utype/core
 
 Simply importing the utility type you need from `@utype/core`
 
-```ts
+```ts twoslash
 import type { Mutable } from '@utype/core'
 
 type Props = { readonly name: string; }
 
 // Expect: { name: string } // [!code highlight]
-type MutableProp = Mutable<Prop>
+type MutableProp = Mutable<Props>
 ```
 
 Refer to [type list](/types/mutable) for more details.

@@ -11,13 +11,13 @@ Get intersection type given union type U.
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { UnionToIntersection } from '@utype/core'
 
-type Prop = { name: string } | { age: number } | { visible: boolean }
+type Props = { name: string } | { age: number } | { visible: boolean }
 
 // Expect: { name: string } & { age: number } & { visible: boolean } // [!code highlight]
-type UnionToIntersectionProp = UnionToIntersection<Prop>
+type UnionToIntersectionProps = UnionToIntersection<Props>
 
 // Expect: 'foo' & 42 & true // [!code highlight]
 type Case = UnionToIntersection<'foo' | 42 | true>

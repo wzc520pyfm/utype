@@ -10,15 +10,15 @@ Get union type of keys that are required in object type T.
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { RequiredKeys } from '@utype/core'
 
-type Prop = {
+type Props = {
   name: string;
   age: number;
   visible?: boolean;
 }
 
 // Expect: 'name' | 'age' // [!code highlight]
-type RequiredKeysProp = RequiredKeys<Prop>
+type RequiredKeysProps = RequiredKeys<Props>
 ```

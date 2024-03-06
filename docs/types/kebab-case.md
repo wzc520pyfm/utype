@@ -10,7 +10,7 @@ Replace the camelCase or PascalCase string with kebab-case.
 
 ## Usage
 
-```ts{3,5}
+```ts{3,5} twoslash
 import type { KebabCase } from '@utype/core'
 
 // Expect: "foo-bar-baz"

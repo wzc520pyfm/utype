@@ -5,7 +5,7 @@ Compare whether two types are equal.
 
 ## Usage
 
-```ts{3}
+```ts{3} twoslash
 import type { Equal } from '@utype/shared'
 
 // Expect: false

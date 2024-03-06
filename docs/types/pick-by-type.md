@@ -11,17 +11,17 @@ From T pick a set of properties by value matching ValueType.
 
 ## Usage
 
-```ts{9,11}
+```ts{9,11} twoslash
 import type { PickByType } from '@utype/core'
 
-type Prop = {
+type Props = {
   foo: number;
   bar: number | undefined;
   faz: boolean;
 }
 
 // Expect: { foo: number; }
-type PickByTypeProp1 = PickByType<Prop, number>
+type PickByTypeProps1 = PickByType<Props, number>
 // Expect: { foo: number; bar: number | undefined; }
-type PickByTypeProp2 = PickByType<Prop, number | undefined>
+type PickByTypeProps2 = PickByType<Props, number | undefined>
 ```

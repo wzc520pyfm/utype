@@ -11,17 +11,17 @@ From T pick a set of properties by value fuzzy matching ValueType.
 
 ## Usage
 
-```ts{9,11}
+```ts{9,11} twoslash
 import type { PickByTypeFuzzy } from '@utype/core'
 
-type Prop = {
+type Props = {
   foo: number;
   bar?: number;
   faz: boolean;
 }
 
 // Expect: { bar?: number; }
-type PickByTypeFuzzyProp1 = PickByTypeFuzzy<Prop, undefined>
+type PickByTypeFuzzyProps1 = PickByTypeFuzzy<Props, undefined>
 // Expect: { bar?: number; faz: boolean; }
-type PickByTypeFuzzyProp2 = PickByTypeFuzzy<Prop, boolean | undefined>
+type PickByTypeFuzzyProps2 = PickByTypeFuzzy<Props, boolean | undefined>
 ```

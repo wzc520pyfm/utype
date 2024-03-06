@@ -10,7 +10,7 @@ Maybe null or undefined from set T.
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { Nullable } from '@utype/core'
 
 // Expect: string | null | undefined // [!code highlight]

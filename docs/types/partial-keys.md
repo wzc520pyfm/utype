@@ -11,15 +11,15 @@ Get union type of keys that are partial in object type T.
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { PartialKeys } from '@utype/core'
 
-type Prop = {
+type Props = {
   name: string;
   age?: number;
   visible?: boolean;
 }
 
 // Expect: 'age' | 'visible' // [!code highlight]
-type PartialKeysProp = PartialKeys<Prop>
+type PartialKeysProps = PartialKeys<Props>
 ```

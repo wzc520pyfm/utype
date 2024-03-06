@@ -11,17 +11,17 @@ Constructs a type by setting the properties specified by `K`(string literal or u
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { PartialX } from '@utype/core'
 
-type Prop = {
+type Props = {
   name: string;
   age: number;
   visible: boolean;
 }
 
 // Expect: { name?: string; age?: number; visible: boolean; } // [!code highlight]
-type PartialXProp = PartialX<Prop, 'name' | 'age'>
+type PartialXProps = PartialX<Props, 'name' | 'age'>
 // @ts-expect-error
-type Error = PartialX<Prop, "sports"> // [!code error]
+type Error = PartialX<Props, "sports"> // [!code error]
 ```

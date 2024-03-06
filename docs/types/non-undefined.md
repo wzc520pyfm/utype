@@ -10,7 +10,7 @@ Exclude undefined from set T.
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { NonUndefined } from '@utype/core'
 
 // Expect: string // [!code highlight]

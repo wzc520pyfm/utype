@@ -10,10 +10,10 @@ Make every parameter of an object - and its sub-objects recursively - readonly.
 
 ## Usage
 
-```ts{11-17}
+```ts{11-17} twoslash
 import type { DeepReadonly } from '@utype/core'
 
-type Prop = {
+type Props = {
   x: {
     a: 1
     b: 'hi'
@@ -28,5 +28,5 @@ type Prop = {
 //   }
 //   readonly y: 'hey'
 // }
-type DeepReadonlyProp = DeepReadonly<Prop>
+type DeepReadonlyProps = DeepReadonly<Props>
 ```

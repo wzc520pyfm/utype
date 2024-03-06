@@ -10,7 +10,7 @@ A Tuple consisting of two identical types.
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { TwoTuple } from '@utype/core'
 
 // Expect: [string, string] // [!code highlight]
