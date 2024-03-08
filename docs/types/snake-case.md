@@ -10,7 +10,7 @@ Replace the camelCase or PascalCase string with snake_case.
 
 ## Usage
 
-```ts{3,5}
+```ts{3,5} twoslash
 import type { SnakeCase } from '@utype/core'
 
 // Expect: "foo_bar_baz"

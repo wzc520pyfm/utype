@@ -5,10 +5,10 @@ Get the union type composed of all keys from nested objects.
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { DeepKeys } from '@utype/core'
 
-type Prop = {
+type Props = {
   a: string;
   b: number;
   c: {
@@ -19,5 +19,5 @@ type Prop = {
 }
 
 // Expect: 'a' | 'b' | 'c' | 'd' | 'e' // [!code highlight]
-type DeepKeysProp = DeepKeys<Prop>
+type DeepKeysProps = DeepKeys<Props>
 ```

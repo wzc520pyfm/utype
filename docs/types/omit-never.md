@@ -10,15 +10,15 @@ Get Union type of object property types, but filtered out never types.
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { OmitNever } from '@utype/core'
 
-type Prop = {
+type Props = {
   name: string;
   age: never;
   visible: boolean;
 }
 
 // Expect: string | boolean // [!code highlight]
-type OmitNeverProp = OmitNever<Prop>
+type OmitNeverProps = OmitNever<Props>
 ```

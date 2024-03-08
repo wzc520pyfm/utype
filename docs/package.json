@@ -18,11 +18,14 @@
   "author": "wzc520pyfm",
   "license": "MIT",
   "devDependencies": {
-    "unocss": "^0.58.2",
-    "vite": "^5.0.10",
-    "vitepress": "1.0.0-rc.32"
+    "@utype/core": "workspace:^",
+    "@utype/shared": "workspace:^",
+    "unocss": "^0.58.5",
+    "vite": "^5.1.5",
+    "vitepress": "1.0.0-rc.40",
+    "vitepress-plugin-twoslash": "^0.10.2"
   },
   "dependencies": {
-    "vue": "^3.4.3"
+    "vue": "^3.4.21"
   }
 }

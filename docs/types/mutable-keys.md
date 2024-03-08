@@ -10,15 +10,15 @@ Get union type of keys that are mutable (not readonly) in object type T.
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { MutableKeys } from '@utype/core'
 
-type Prop = {
+type Props = {
   readonly name: string;
   age: number;
   visible: boolean;
 }
 
 // Expect: 'age' | 'visible' // [!code highlight]
-type MutableKeysProp = MutableKeys<Prop>
+type MutableKeysProps = MutableKeys<Props>
 ```

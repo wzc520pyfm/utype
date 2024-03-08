@@ -11,10 +11,10 @@ Make specified properties in the object readonly, regardless of how deeply neste
 
 ## Usage
 
-```ts{10-16}
+```ts{10-16} twoslash
 import type { DeepReadonlyX } from '@utype/core'
 
-type Prop = {
+type Props = {
   x: {
     a: 1
     b: 'hi'
@@ -28,5 +28,5 @@ type Prop = {
 //   }
 //   readonly y: 'hey'
 // }
-type DeepReadonlyXProp = DeepReadonlyX<Prop, 'b' | 'y'>
+type DeepReadonlyXProps = DeepReadonlyX<Props, 'b' | 'y'>
 ```

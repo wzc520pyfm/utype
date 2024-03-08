@@ -10,10 +10,10 @@ Make every parameter of an object - and its sub-objects recursively - mutable.
 
 ## Usage
 
-```ts{11-17}
+```ts{11-17} twoslash
 import type { DeepMutable } from '@utype/core'
 
-type Prop = {
+type Props = {
   readonly x: {
     readonly a: 1
     readonly b: 'hi'
@@ -28,5 +28,5 @@ type Prop = {
 //   }
 //   y: 'hey'
 // }
-type DeepMutableProp = DeepMutable<Prop>
+type DeepMutableProps = DeepMutable<Props>
 ```

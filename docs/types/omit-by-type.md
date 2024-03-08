@@ -11,17 +11,17 @@ From T remove a set of properties by value matching ValueType.
 
 ## Usage
 
-```ts{9,11}
+```ts{9,11} twoslash
 import type { OmitByType } from '@utype/core'
 
-type Prop = {
+type Props = {
   foo: number;
   bar: number | undefined;
   faz: boolean;
 }
 
 // Expect: { bar: number | undefined; faz: boolean; }
-type OmitByTypeProp1 = OmitByType<Prop, number>
+type OmitByTypeProps1 = OmitByType<Props, number>
 // Expect: { faz: boolean; }
-type OmitByTypeProp2 = OmitByType<Prop, number | undefined>
+type OmitByTypeProps2 = OmitByType<Props, number | undefined>
 ```

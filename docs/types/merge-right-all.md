@@ -10,7 +10,7 @@ Merge variadic number of types into a new type. If the keys overlap, later keys 
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { MergeRightAll } from '@utype/core'
 
 type Foo = { a: 1; b: 2 }
