@@ -10,14 +10,11 @@ category: Function
 
 ## Usage
 
-```ts{13-14,17-18}
+```ts{13-15} twoslash
 import type { Curried } from '@utype/core'
 
-function yourCurrying<A extends unknown[], R>(
-  fn: (...args: A) => R
-): Curried<A, R> {
-  // Your implementation logic...
-}
+// Your implementation logic...
+declare function yourCurrying<A extends unknown[], R>(fn: (...args: A) => R): Curried<A, R>
 
 const yourFun = (a: string, b: number) => true;
 const curriedYourFun = yourCurrying(yourFun);
