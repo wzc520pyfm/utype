@@ -11,7 +11,7 @@ Extracting the first element of a tuple as a tuple type.
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { TupleHead } from '@utype/core'
 
 type Prop = [a: string, b: number, c: boolean]
