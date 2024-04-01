@@ -12,7 +12,7 @@ Extracting the first element of a tuple as a tuple type.
 ## Usage
 
 ```ts twoslash
-import type { TupleHead } from '@utype/core'
+import type { TupleHead } from '@utype/shared'
 
 type Prop = [a: string, b: number, c: boolean]
 // Expect: [a: string] // [!code highlight]
