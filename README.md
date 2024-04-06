@@ -46,6 +46,7 @@ npm i @utype/core
 <a href="./docs/types/non-undefined.md" target="_blank" ><img src="https://img.shields.io/badge/NonUndefined-006FEE" alt="NonUndefined" /></a>
 <a href="./docs/types/omit-never.md" target="_blank" ><img src="https://img.shields.io/badge/OmitNever-006FEE" alt="OmitNever" /></a>
 <a href="./docs/types/union-to-intersection.md" target="_blank" ><img src="https://img.shields.io/badge/UnionToIntersection-006FEE" alt="UnionToIntersection" /></a>
+<a href="./docs/types/optional-tuple-last.md" target="_blank" ><img src="https://img.shields.io/badge/OptionalTupleLast-006FEE" alt="OptionalTupleLast" /></a>
 
 ### 🚀 Get Object Keys
 
