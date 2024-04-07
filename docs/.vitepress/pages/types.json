@@ -87,6 +87,10 @@
         "text": "UnionToIntersection"
       },
       {
+        "link": "/optional-tuple-last",
+        "text": "OptionalTupleLast"
+      },
+      {
         "link": "/deep-keys",
         "text": "DeepKeys"
       },
