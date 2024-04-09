@@ -1,6 +1,6 @@
 {
   "name": "@utype/core",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Collection of typescript utility types that extends the official utility types",
   "author": "wzc520pyfm",
   "license": "MIT",
