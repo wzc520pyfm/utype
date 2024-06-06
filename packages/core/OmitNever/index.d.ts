@@ -4,6 +4,7 @@ import { Duplicate } from "@utype/shared";
  * OmitNever
  * @description Get Union type of object property types, but filtered out never types.
  * @example
+ * ```ts
  *  type Prop = {
  *      name: string;
  *      age: never;
@@ -11,6 +12,7 @@ import { Duplicate } from "@utype/shared";
  *  }
  *  // Expect: string | boolean
  *  type OmitNeverProp = OmitNever<Prop>
+ * ```
  */
 export type OmitNever<T extends object> = Duplicate<T>[keyof T];
 

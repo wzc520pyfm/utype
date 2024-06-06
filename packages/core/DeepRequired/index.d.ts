@@ -5,6 +5,7 @@ import { NonUndefined } from "@utype/core";
  * DeepRequired
  * @description Make every parameter of an object - and its sub-objects recursively - required.
  * @example
+ * ```ts
  *  type Prop = {
  *    x: {
  *      a?: 1
@@ -20,6 +21,7 @@ import { NonUndefined } from "@utype/core";
  *  //   y: 'hey'
  *  // }
  * type DeepRequiredProp = DeepRequired<Prop>
+ * ```
  */
 // todo need support array
 export type DeepRequired<T> = T extends OnlyObject

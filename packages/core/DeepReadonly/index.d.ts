@@ -4,6 +4,7 @@ import { Keys } from "@utype/shared";
  * DeepReadonly
  * @description Make every parameter of an object - and its sub-objects recursively - readonly.
  * @example
+ * ```ts
  *  type Prop = {
  *    x: {
  *      a: 1
@@ -19,6 +20,7 @@ import { Keys } from "@utype/shared";
  *  //   readonly y: 'hey'
  *  // }
  * type DeepReadonlyProp = DeepReadonly<Prop>
+ * ```
  */
 // todo need support arr, fun, class, etc.
 export type DeepReadonly<T> = {

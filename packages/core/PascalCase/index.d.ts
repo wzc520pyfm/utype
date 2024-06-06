@@ -2,10 +2,12 @@
  * PascalCase
  * @description Replace the snake_case or kebab-case string with PascalCase.
  * @example
+ * ```ts
  *  // Expect: "FooBarBaz"
  *  type FooBarBaz = PascalCase<"foo_bar_baz">
  *  // Expect: "FooBarBaz"
  *  type FooBarBaz = PascalCase<"foo-bar-baz">
+ * ```
  */
 // todo need support more edge cases.
 export type PascalCase<

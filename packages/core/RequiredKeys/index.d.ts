@@ -5,6 +5,7 @@ import { OmitNever, NonUndefined } from "@utype/core";
  * RequiredKeys
  * @description Get union type of keys that are required in object type T.
  * @example
+ * ```ts
  *  type Prop = {
  *      name: string;
  *      age: number;
@@ -12,6 +13,7 @@ import { OmitNever, NonUndefined } from "@utype/core";
  *  }
  *  // Expect: 'name' | 'age'
  *  type RequiredKeysProp = RequiredKeys<Prop>
+ * ```
  */
 export type RequiredKeys<
   T extends object,

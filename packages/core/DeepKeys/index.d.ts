@@ -5,6 +5,7 @@ import { Keys } from "@utype/shared";
  * DeepKeys
  * @description Get the union type composed of all keys from nested objects.
  * @example
+ * ```ts
  *  type Prop = {
  *      a: string;
  *      b: number;
@@ -16,6 +17,7 @@ import { Keys } from "@utype/shared";
  *  }
  *  // Expect: 'a' | 'b' | 'c' | 'd' | 'e'
  *  type DeepKeysProp = DeepKeys<Prop>
+ * ```
  */
 export type DeepKeys<T> = T extends object
   ? NonUndefined<

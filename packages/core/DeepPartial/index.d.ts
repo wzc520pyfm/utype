@@ -5,6 +5,7 @@ import { Keys, OnlyObject } from "@utype/shared";
  * @description Make every parameter of an object - and its sub-objects recursively - partial.
  * @alias DeepOptional
  * @example
+ * ```ts
  *  type Prop = {
  *    x: {
  *      a: 1
@@ -20,6 +21,7 @@ import { Keys, OnlyObject } from "@utype/shared";
  *  //   y?: 'hey'
  *  // }
  * type DeepPartialProp = DeepPartial<Prop>
+ * ```
  */
 // todo need support array
 export type DeepPartial<T> = {

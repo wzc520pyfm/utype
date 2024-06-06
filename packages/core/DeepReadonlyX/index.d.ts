@@ -6,6 +6,7 @@ import { MergeRight, DeepKeys } from "@utype/core";
  * @description Make specified properties in the object readonly, regardless of how deeply nested they are.
  * @alias DeepReadonlyByKeys
  * @example
+ * ```ts
  *  type Prop = {
  *    x: {
  *      a: 1
@@ -21,6 +22,7 @@ import { MergeRight, DeepKeys } from "@utype/core";
  *  //   readonly y: 'hey'
  *  // }
  * type DeepReadonlyXProp = DeepReadonlyX<Prop, 'b' | 'y'>
+ * ```
  */
 // todo: The P should be constrained within DeepKeys<T>
 export type DeepReadonlyX<T, P = DeepKeys<T>> = MergeRight<

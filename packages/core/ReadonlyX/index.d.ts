@@ -5,6 +5,7 @@ import { Duplicate } from "@utype/shared";
  * @description Constructs a type by setting the properties specified by `K`(string literal or union of string literals) to readonly from `T`.
  * @alias ReadonlyByKeys
  * @example
+ * ```ts
  *  type Prop = {
  *    name: string;
  *    age: number;
@@ -12,6 +13,7 @@ import { Duplicate } from "@utype/shared";
  *  }
  *  // Expect: { readonly name: string; readonly age: number; visible: boolean; }
  *  type ReadonlyXProp = ReadonlyX<Prop, 'name' | 'age'>
+ * ```
  */
 export type ReadonlyX<T, K extends keyof T = keyof T> = Duplicate<
   Readonly<Pick<T, K>> & Omit<T, K>
