@@ -85,6 +85,7 @@ npm i @utype/core
 ### Vue Reactive
 
 <a href="./docs/types/to-maybe-ref-or-getters.md" target="_blank" ><img src="https://img.shields.io/badge/ToMaybeRefOrGetters-17c964" alt="ToMaybeRefOrGetters" /></a>
+<a href="./docs/types/to-non-function-for-maybe-ref-or-getters.md" target="_blank" ><img src="https://img.shields.io/badge/ToNonFunctionForMaybeRefOrGetters-17c964" alt="ToNonFunctionForMaybeRefOrGetters" /></a>
 
 ## 🥰 Contributors
 
