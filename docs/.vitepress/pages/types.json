@@ -214,8 +214,8 @@
     "text": "Vue",
     "items": [
       {
-        "link": "/example-vue",
-        "text": "ExampleVue"
+        "link": "/to-maybe-ref-or-getters",
+        "text": "ToMaybeRefOrGetters"
       }
     ]
   }
