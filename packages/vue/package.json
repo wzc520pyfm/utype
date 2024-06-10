@@ -14,5 +14,9 @@
     "utility types"
   ],
   "author": "wzc520pyfm",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@utype/core": "workspace:^",
+    "vue": "^3.4.21"
+  }
 }
