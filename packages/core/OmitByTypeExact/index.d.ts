@@ -6,6 +6,7 @@ import { Equal } from "@utype/shared";
  * @description From T remove a set of properties by value matching exact ValueType.
  * @alias OmitByValueExact
  * @example
+ * ```ts
  *  type Prop = {
  *      foo: number;
  *      bar: number | undefined;
@@ -15,6 +16,7 @@ import { Equal } from "@utype/shared";
  *  type OmitByTypeExactProp1 = OmitByTypeExact<Prop, number>
  *  // Expect: { foo: number; faz: boolean; }
  *  type OmitByTypeExactProp2 = OmitByTypeExact<Prop, number | undefined>
+ * ```
  */
 export type OmitByTypeExact<T, ValueType> = Omit<
   T,

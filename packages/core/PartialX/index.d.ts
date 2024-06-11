@@ -5,6 +5,7 @@ import { Keys, Duplicate } from "@utype/shared";
  * @description Constructs a type by setting the properties specified by `K`(string literal or union of string literals) to partial from `T`.
  * @alias PartialByKeys
  * @example
+ * ```ts
  *  type Prop = {
  *    name: string;
  *    age: number;
@@ -12,6 +13,7 @@ import { Keys, Duplicate } from "@utype/shared";
  *  }
  *  // Expect: { name?: string; age?: number; visible: boolean; }
  *  type PartialXProp = PartialX<Prop, 'name' | 'age'>
+ * ```
  */
 export type PartialX<T, K extends Keys<T> = Keys<T>> = Duplicate<
   Partial<Pick<T, K>> & Omit<T, K>

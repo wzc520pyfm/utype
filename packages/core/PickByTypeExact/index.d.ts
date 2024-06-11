@@ -6,6 +6,7 @@ import { Equal } from "@utype/shared";
  * @description From T pick a set of properties by value matching exact ValueType.
  * @alias PickByValueExact
  * @example
+ * ```ts
  *  type Prop = {
  *      foo: number;
  *      bar: number | undefined;
@@ -15,6 +16,7 @@ import { Equal } from "@utype/shared";
  *  type PickByTypeExactProp1 = PickByTypeExact<Prop, number>
  *  // Expect: { bar: number | undefined; }
  *  type PickByTypeExactProp2 = PickByTypeExact<Prop, number | undefined>
+ * ```
  */
 export type PickByTypeExact<T, ValueType> = Pick<
   T,

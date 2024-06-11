@@ -5,6 +5,7 @@ import { OmitNever, NonUndefined } from "@utype/core";
  * ReadonlyKeys
  * @description Get union type of keys that are readonly in object type T.
  * @example
+ * ```ts
  *  type Prop = {
  *      readonly name: string;
  *      readonly age: number;
@@ -12,6 +13,7 @@ import { OmitNever, NonUndefined } from "@utype/core";
  *  }
  *  // Expect: 'name' | 'age'
  *  type ReadonlyKeysProp = ReadonlyKeys<Prop>
+ * ```
  */
 export type ReadonlyKeys<
   T extends object,

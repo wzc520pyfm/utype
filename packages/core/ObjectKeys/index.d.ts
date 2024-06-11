@@ -5,6 +5,7 @@ import { ObjectKeyType } from "@utype/shared";
  * ObjectKeys
  * @description Get union type of keys that are object in object type T.
  * @example
+ * ```ts
  *  type Prop = {
  *      name: string;
  *      breakfast: { foods: string[]; };
@@ -12,6 +13,7 @@ import { ObjectKeyType } from "@utype/shared";
  *  }
  *  // Expect: 'breakfast' | 'dinner'
  *  type ObjectKeysProp = ObjectKeys<Prop>
+ * ```
  */
 export type ObjectKeys<T extends object> = NonUndefined<
   OmitNever<{

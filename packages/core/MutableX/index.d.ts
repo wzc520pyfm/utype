@@ -6,6 +6,7 @@ import { Mutable } from "@utype/core";
  * @description Constructs a type by setting the properties specified by `K`(string literal or union of string literals) to mutable from `T`.
  * @alias MutableByKeys
  * @example
+ * ```ts
  *  type Prop = {
  *    readonly name: string;
  *    readonly age: number;
@@ -13,6 +14,7 @@ import { Mutable } from "@utype/core";
  *  }
  *  // Expect: { name: string; age: number; readonly visible: boolean; }
  *  type MutableXProp = MutableX<Prop, 'name' | 'age'>
+ * ```
  */
 export type MutableX<T, K extends keyof T = keyof T> = Duplicate<
   Mutable<Pick<T, K>> & Omit<T, K>

@@ -5,6 +5,7 @@ import { Mutable, OmitNever, NonUndefined } from "@utype/core";
  * MutableKeys
  * @description Get union type of keys that are mutable (not readonly) in object type T.
  * @example
+ * ```ts
  *  type Prop = {
  *      readonly name: string;
  *      age: number;
@@ -12,6 +13,7 @@ import { Mutable, OmitNever, NonUndefined } from "@utype/core";
  *  }
  *  // Expect: 'age' | 'visible'
  *  type MutableKeysProp = MutableKeys<Prop>
+ * ```
  */
 export type MutableKeys<
   T extends object,

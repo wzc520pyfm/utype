@@ -2,11 +2,13 @@
  * UnionToIntersection
  * @description Get intersection type given union type U.
  * @example
+ * ```ts
  *  type Prop = { name: string } | { age: number } | { visible: boolean }
  *  // Expect: { name: string } & { age: number } & { visible: boolean }
  *  type UnionToIntersectionProp = UnionToIntersection<Prop>
  *  // Expect: 'foo' & 42 & true
  *  type Case = UnionToIntersection<'foo' | 42 | true>
+ * ```
  */
 export type UnionToIntersection<U> = _UnionToUFunctions<U> extends (arg: infer I) => void ? I : never;
 

@@ -4,6 +4,7 @@ import { Keys } from "@utype/shared";
  * DeepMutable
  * @description Make every parameter of an object - and its sub-objects recursively - mutable.
  * @example
+ * ```ts
  *  type Prop = {
  *    readonly x: {
  *      readonly a: 1
@@ -19,6 +20,7 @@ import { Keys } from "@utype/shared";
  *  //   y: 'hey'
  *  // }
  * type DeepMutableProp = DeepMutable<Prop>
+ * ```
  */
 export type DeepMutable<T extends object> = T extends Function
   ? T

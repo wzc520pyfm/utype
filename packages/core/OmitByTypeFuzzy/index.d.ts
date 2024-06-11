@@ -5,6 +5,7 @@ import { OmitNever } from "@utype/core";
  * @description From T remove a set of properties by value fuzzy matching ValueType.
  * @alias OmitByValueFuzzy
  * @example
+ * ```ts
  *  type Prop = {
  *      foo: number;
  *      bar?: number;
@@ -14,6 +15,7 @@ import { OmitNever } from "@utype/core";
  *  type OmitByTypeFuzzyProp1 = OmitByTypeFuzzy<Prop, undefined>
  *  // Expect: { foo: number }
  *  type OmitByTypeFuzzyProp2 = OmitByTypeFuzzy<Prop, boolean | undefined>
+ * ```
  */
 export type OmitByTypeFuzzy<T, ValueType> = Omit<
   T,

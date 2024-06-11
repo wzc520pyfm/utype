@@ -5,6 +5,7 @@ import { OmitNever } from "@utype/core";
  * @description From T remove a set of properties by value matching ValueType.
  * @alias OmitByValue
  * @example
+ * ```ts
  *  type Prop = {
  *      foo: number;
  *      bar: number | undefined;
@@ -14,6 +15,7 @@ import { OmitNever } from "@utype/core";
  *  type OmitByTypeProp1 = OmitByType<Prop, number>
  *  // Expect: { faz: boolean; }
  *  type OmitByTypeProp2 = OmitByType<Prop, number | undefined>
+ * ```
  */
 export type OmitByType<T, ValueType> = Omit<
   T,

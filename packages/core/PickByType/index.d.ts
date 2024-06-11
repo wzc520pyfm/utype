@@ -5,6 +5,7 @@ import { OmitNever } from "@utype/core";
  * @description From T pick a set of properties by value matching ValueType.
  * @alias PickByValue
  * @example
+ * ```ts
  *  type Prop = {
  *      foo: number;
  *      bar: number | undefined;
@@ -14,6 +15,7 @@ import { OmitNever } from "@utype/core";
  *  type PickByTypeProp1 = PickByType<Prop, number>
  *  // Expect: { foo: number; bar: number | undefined; }
  *  type PickByTypeProp2 = PickByType<Prop, number | undefined>
+ * ```
  */
 export type PickByType<T, ValueType> = Pick<
   T,

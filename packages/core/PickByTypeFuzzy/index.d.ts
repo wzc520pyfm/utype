@@ -5,6 +5,7 @@ import { OmitNever } from "@utype/core";
  * @description From T pick a set of properties by value fuzzy matching ValueType.
  * @alias PickByValueFuzzy
  * @example
+ * ```ts
  *  type Prop = {
  *      foo: number;
  *      bar?: number;
@@ -14,6 +15,7 @@ import { OmitNever } from "@utype/core";
  *  type PickByTypeFuzzyProp1 = PickByTypeFuzzy<Prop, undefined>
  *  // Expect: { bar?: number; faz: boolean; }
  *  type PickByTypeFuzzyProp2 = PickByTypeFuzzy<Prop, boolean | undefined>
+ * ```
  */
 export type PickByTypeFuzzy<T, ValueType> = Pick<
   T,

@@ -5,6 +5,7 @@ import { ReadonlyKeys, PartialKeys } from "@utype/core";
  * Merge
  * @description Merge two types into a new type. If the keys overlap, its values should be merged into an union.
  * @example
+ * ```ts
  *  type Foo = {
  *      name: string;
  *      age: string;
@@ -19,6 +20,7 @@ import { ReadonlyKeys, PartialKeys } from "@utype/core";
  *  //     sex: string;
  *  // }
  *  type MergeResult = Merge<Foo, Bar>
+ * ```
  */
 export type Merge<F extends object, S extends object> = Duplicate<
   {

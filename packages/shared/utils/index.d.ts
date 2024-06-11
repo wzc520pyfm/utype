@@ -17,8 +17,10 @@ export type Expect<T extends true> = T
  * Equal
  * @description Compare whether two types are equal.
  * @example 
+ * ```ts
  * // Expect: false
  * type Case = Equal<string, number>
+ * ```
  */
 export type Equal<X, Y> =
   (<T>() => T extends X ? 1 : 2) extends

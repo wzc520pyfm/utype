@@ -5,12 +5,14 @@ import { RequiredKeys } from "@utype/core";
  * @description From T pick all required properties to generate a new object type.
  * @alias GetRequired
  * @example
+ * ```ts
  *  type Prop = {
  *      foo: number;
  *      bar?: string;
  *  }
  *  // Expect: { foo: number; }
  *  type PickByRequiredProp = PickByRequired<Prop>
+ * ```
  */
 export type PickByRequired<T extends object> = Pick<T, RequiredKeys<T>>;
 

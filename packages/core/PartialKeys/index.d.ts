@@ -6,6 +6,7 @@ import { OmitNever, NonUndefined } from "@utype/core";
  * @description Get union type of keys that are partial in object type T.
  * @alias OptionalKeys
  * @example
+ * ```ts
  *  type Prop = {
  *      name: string;
  *      age?: number;
@@ -13,6 +14,7 @@ import { OmitNever, NonUndefined } from "@utype/core";
  *  }
  *  // Expect: 'age' | 'visible'
  *  type PartialKeysProp = PartialKeys<Prop>
+ * ```
  */
 export type PartialKeys<
   T extends object,
