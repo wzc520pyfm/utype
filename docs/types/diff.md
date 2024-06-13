@@ -10,7 +10,7 @@ Get the types that are not common in both T and U.
 
 ## Usage
 
-```ts
+```ts twoslash
 import type { Diff } from '@utype/core'
 
 type Prop = { name: string; age: number; visible: boolean }
