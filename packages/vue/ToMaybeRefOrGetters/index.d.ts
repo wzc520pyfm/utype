@@ -14,6 +14,6 @@ import type { MaybeRefOrGetter } from 'vue'
  *  type MyProp = ToMaybeRefOrGetters<Prop>
  * ```
  */
-type ToMaybeRefOrGetters<T> = {
+export type ToMaybeRefOrGetters<T> = {
   [P in keyof T]?: MaybeRefOrGetter<NonUndefined<T[P]>>
 }
