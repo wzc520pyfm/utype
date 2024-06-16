@@ -218,8 +218,8 @@
         "text": "ToMaybeRefOrGetters"
       },
       {
-        "link": "/to-non-function-for-maybe-ref-or-getters",
-        "text": "ToNonFunctionForMaybeRefOrGetters"
+        "link": "/to-maybe-ref-or-getters-for-non-function",
+        "text": "ToMaybeRefOrGettersForNonFunction"
       }
     ]
   }

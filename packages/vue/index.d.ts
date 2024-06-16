@@ -1,2 +1,2 @@
 export * from './ToMaybeRefOrGetters'
-export * from './ToNonFunctionForMaybeRefOrGetters'
+export * from './ToMaybeRefOrGettersForNonFunction'
