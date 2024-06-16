@@ -20,5 +20,5 @@ type Props = {
 }
 
 // Expect: { (eventname: "click", e: Event): void; (eventname: "mousedown"): void; } // [!code highlight]
-type MyProp = ToEmitsForEvents<Prop>
+type MyProp = ToEmitsForEvents<Props>
 ```
