@@ -198,6 +198,10 @@
       {
         "link": "/tuple-head",
         "text": "TupleHead"
+      },
+      {
+        "link": "/record-union",
+        "text": "RecordToUnion"
       }
     ]
   },
