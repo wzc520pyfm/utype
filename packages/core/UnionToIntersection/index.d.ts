@@ -1,6 +1,7 @@
 /**
  * UnionToIntersection
  * @description Get intersection type given union type U.
+ * @alias Union2Intersection UToI U2I
  * @example
  * ```ts
  *  type Prop = { name: string } | { age: number } | { visible: boolean }
