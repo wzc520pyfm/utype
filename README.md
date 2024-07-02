@@ -47,6 +47,7 @@ npm i @utype/core
 <a href="./docs/types/omit-never.md" target="_blank" ><img src="https://img.shields.io/badge/OmitNever-006FEE" alt="OmitNever" /></a>
 <a href="./docs/types/union-to-intersection.md" target="_blank" ><img src="https://img.shields.io/badge/UnionToIntersection-006FEE" alt="UnionToIntersection" /></a>
 <a href="./docs/types/optional-tuple-last.md" target="_blank" ><img src="https://img.shields.io/badge/OptionalTupleLast-006FEE" alt="OptionalTupleLast" /></a>
+<a href="./docs/types/record-union.md" target="_blank" ><img src="https://img.shields.io/badge/RecordToUnion-006FEE" alt="RecordToUnion" /></a>
 
 ### 🚀 Get Object Keys
 
@@ -86,6 +87,7 @@ npm i @utype/core
 
 <a href="./docs/types/to-maybe-ref-or-getters.md" target="_blank" ><img src="https://img.shields.io/badge/ToMaybeRefOrGetters-17c964" alt="ToMaybeRefOrGetters" /></a>
 <a href="./docs/types/to-maybe-ref-or-getters-for-non-function.md" target="_blank" ><img src="https://img.shields.io/badge/ToMaybeRefOrGettersForNonFunction-17c964" alt="ToMaybeRefOrGettersForNonFunction" /></a>
+<a href="./docs/types/to-emits-for-events.md" target="_blank" ><img src="https://img.shields.io/badge/ToEmitsForEvents-17c964" alt="ToEmitsForEvents" /></a>
 
 ## 🥰 Contributors
 

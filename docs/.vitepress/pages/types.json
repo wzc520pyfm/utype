@@ -198,6 +198,10 @@
       {
         "link": "/tuple-head",
         "text": "TupleHead"
+      },
+      {
+        "link": "/record-union",
+        "text": "RecordToUnion"
       }
     ]
   },
@@ -220,6 +224,10 @@
       {
         "link": "/to-maybe-ref-or-getters-for-non-function",
         "text": "ToMaybeRefOrGettersForNonFunction"
+      },
+      {
+        "link": "/to-emits-for-events",
+        "text": "ToEmitsForEvents"
       }
     ]
   }
